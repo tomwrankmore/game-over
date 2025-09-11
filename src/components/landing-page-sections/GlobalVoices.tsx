@@ -1,7 +1,12 @@
-import React from "react";
+import PageContainer from "../PageContainer"
+import SectionHeading from "../SectionHeading"
 
 const GlobalVoices = () => {
-  return <div>GlobalVoices</div>;
+  return (
+    <PageContainer bgColor="bg-boycott-red" textColor="text-boycott-light">
+      <SectionHeading>Global Voices</SectionHeading>
+    </PageContainer>
+  );
 };
 
 export default GlobalVoices;

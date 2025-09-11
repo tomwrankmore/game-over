@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist
+out
+
+# Misc
+.vscode
+*.log
+
+# Generated files
+*.d.ts
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Optional: ignore gitignored files
+.git

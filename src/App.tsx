@@ -1,19 +1,21 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
+import BottomBanner from './components/BottomBanner';
 // import Contact from "./pages/Contact";
-import NavBar from "./components/NavBar";
-import BottomBanner from "./components/BottomBanner";
-import { LinktreeProfile } from "./pages/Linktree";
+// import NavBar from './components/NavBar';
+import Navigation from './components/Navigation';
+import About from './pages/About';
+import Home from './pages/Home';
+import { LinktreeProfile } from './pages/Linktree';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 // import AnnouncementBar from "./components/AnnouncementBar";
 
 function App() {
   return (
     <BrowserRouter>
+      <Navigation />
       <div>
-        <NavBar />
         {/* <AnnouncementBar /> */}
-        <div className="bg-boycott-light text-boycott-black relative min-h-screen">
+        <div className="bg-boycott-light text-boycott-black relative">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

@@ -1,18 +1,28 @@
-import About from "@/components/landing-page-sections/About";
-import GlobalVoices from "@/components/landing-page-sections/GlobalVoices";
-import Hero from "@/components/landing-page-sections/Hero";
-import MakeItHappen from "@/components/landing-page-sections/MakeItHappen";
-import OurDemand from "@/components/landing-page-sections/OurDemand";
+import Divider from '@/components/Divider';
+import About from '@/components/landing-page-sections/About';
+import GlobalVoices from '@/components/landing-page-sections/GlobalVoices';
+import Hero from '@/components/landing-page-sections/Hero';
+import MakeItHappen from '@/components/landing-page-sections/MakeItHappen';
+import OurDemand from '@/components/landing-page-sections/OurDemand';
+import ReachOut from '@/components/landing-page-sections/ReachOut';
+import TheWhy from '@/components/landing-page-sections/TheWhy';
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero />
+      <TheWhy />
+      <Divider />
       <OurDemand />
-      <GlobalVoices />
+      {/* <Divider />
       <MakeItHappen />
+      <Divider />
+      <GlobalVoices />
+      <Divider />
+      <ReachOut /> */}
+      <Divider />
       <About />
-    </div>
+    </>
   );
 };
 
