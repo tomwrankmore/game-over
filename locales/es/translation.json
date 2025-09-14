@@ -17,7 +17,10 @@
   "CTA": {
     "title": "Inundar la Federación",
     "text": "Contacta a los representantes de tu Federación de Fútbol y exige que tomen medidas.",
-    "button1": "Ponte en contacto",
+    "button1": {
+      "label": "Ponte en contacto",
+      "email": "mailto:Mark.bullingham@thefa.com"
+    },
     "button2": "Copiar plantilla de correo electrónico"
   },
   "callout": "No más esperas. No más excusas. Boicot a Israel ahora.",
@@ -29,33 +32,41 @@
     "title": "Llama a tu director de Federación",
     "text": "Dile a tu director de Federación que boicotee la selección nacional israelí, a los clubes israelíes y prohíba a los jugadores israelíes AHORA.",
     "countryContacts": {
+      "Bélgica": {
+        "name": "Bélgica",
+        "number": "+3224771211"
+      },
       "Inglaterra": {
         "name": "Inglaterra",
-        "email": "Mark.bullingham@thefa.com"
-      },
-      "Escocia": {
-        "name": "Escocia",
-        "email": "mike.mulraney@scottishfa.co.uk"
-      },
-      "Noruega": {
-        "name": "Noruega",
-        "email": "President@fotball.no"
-      },
-      "Irlanda": {
-        "name": "Irlanda",
-        "email": "Paul.cooke@fai.ie"
-      },
-      "Italia": {
-        "name": "Italia",
-        "email": "g.graviba@figc.it"
+        "number": "+44 800 169 1863"
       },
       "Francia": {
         "name": "Francia",
-        "email": "Pdiallo@fff.fr"
+        "number": "+33144317300"
       },
       "Grecia": {
         "name": "Grecia",
-        "email": "gkagkatsis@epo.gr"
+        "number": "+302109306000"
+      },
+      "Irlanda": {
+        "name": "Irlanda",
+        "number": "+353 1 8999 500"
+      },
+      "Italia": {
+        "name": "Italia",
+        "number": "+390684911"
+      },
+      "Noruega": {
+        "name": "Noruega",
+        "number": "+47 21 02 93 00"
+      },
+      "Escocia": {
+        "name": "Escocia",
+        "number": "+44 141 616 6000"
+      },
+      "España": {
+        "name": "España",
+        "number": "+34 914 959 800"
       }
     }
   },

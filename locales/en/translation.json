@@ -17,7 +17,10 @@
   "CTA": {
     "title": "Flood the Federation",
     "text": "Contact the representatives of your Football Federation and demand they take action.",
-    "button1": "Get in touch",
+    "button1": {
+      "label": "Get in touch",
+      "email": "mailto:Mark.bullingham@thefa.com"
+    },
     "button2": "Copy email template"
   },
   "callout": "No more waiting. No more excuses. Boycott Israel now.",
@@ -29,33 +32,41 @@
     "title": "Call your Federation Director",
     "text": "Tell your Federation Director to boycott the Israeli national team, Israeli clubs and ban Israeli players NOW.",
     "countryContacts": {
+      "Belgium": {
+        "name": "Belgium",
+        "number": "+3224771211"
+      },
       "England": {
         "name": "England",
-        "email": "Mark.bullingham@thefa.com"
-      },
-      "Scotland": {
-        "name": "Scotland",
-        "email": "mike.mulraney@scottishfa.co.uk"
-      },
-      "Norway": {
-        "name": "Norway",
-        "email": "President@fotball.no"
-      },
-      "Ireland": {
-        "name": "Ireland",
-        "email": "Paul.cooke@fai.ie"
-      },
-      "Italy": {
-        "name": "Italy",
-        "email": "g.graviba@figc.it"
+        "number": "+44 800 169 1863"
       },
       "France": {
         "name": "France",
-        "email": "Pdiallo@fff.fr"
+        "number": "+33144317300"
       },
       "Greece": {
         "name": "Greece",
-        "email": "gkagkatsis@epo.gr"
+        "number": "+302109306000"
+      },
+      "Ireland": {
+        "name": "Ireland",
+        "number": "+353 1 8999 500"
+      },
+      "Italy": {
+        "name": "Italy",
+        "number": "+390684911"
+      },
+      "Norway": {
+        "name": "Norway",
+        "number": "+47 21 02 93 00"
+      },
+      "Scotland": {
+        "name": "Scotland",
+        "number": "+44 141 616 6000"
+      },
+      "Spain": {
+        "name": "Spain",
+        "number": "+34 914 959 800"
       }
     }
   },
