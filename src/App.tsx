@@ -2,29 +2,56 @@ import BottomBanner from './components/BottomBanner';
 // import Contact from "./pages/Contact";
 // import NavBar from './components/NavBar';
 import Navigation from './components/Navigation';
-import About from './pages/About';
+import Call from './pages/Call';
+import Downloads from './pages/Downloads';
 import Home from './pages/Home';
-import { LinktreeProfile } from './pages/Linktree';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import {
+  HashRouter,
+  Routes,
+  Route,
+  useParams,
+  Navigate,
+} from 'react-router-dom';
 
-// import AnnouncementBar from "./components/AnnouncementBar";
+function LocaleWrapper() {
+  const { lng } = useParams(); // "en" | "es"
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    if (lng && i18n.language !== lng) {
+      i18n.changeLanguage(lng);
+    }
+  }, [lng, i18n]);
+
+  return (
+    <>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/call" element={<Call />} />
+        <Route path="/downloads" element={<Downloads />} />
+      </Routes>
+    </>
+  );
+}
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navigation />
+    <HashRouter>
       <div>
-        {/* <AnnouncementBar /> */}
         <div className="bg-boycott-light text-boycott-black relative">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/linktree" element={<LinktreeProfile />} />
+            {/* Default redirect to English */}
+            <Route path="/" element={<Navigate to="/en" replace />} />
+            {/* Locale-aware routes */}
+            <Route path="/:lng/*" element={<LocaleWrapper />} />
           </Routes>
         </div>
         <BottomBanner />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

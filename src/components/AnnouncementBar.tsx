@@ -1,5 +1,3 @@
-import React from "react";
-
 const AnnouncementBar = () => {
   return (
     <div className="bg-boycott-red p-4 text-center text-white">

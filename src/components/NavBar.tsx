@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import Logo from "./Logo";
+import Logo from './Logo';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
@@ -7,7 +7,7 @@ const NavBar = () => {
       <nav className="flex w-full items-center justify-between p-4 text-white">
         <div className="flex items-center">
           <Link to="/" className="text-xl font-bold">
-            <Logo isDark={false} />
+            <Logo />
           </Link>
         </div>
         <div className="flex gap-4">

@@ -1,0 +1,92 @@
+{
+  "heroTitle": "Toma Acción n",
+  "why": {
+    "title": "Por qué #GameOverIsrael?",
+    "text": "Israel está cometiendo un genocidio y lo transmite en directo al mundo, y aún asísiguen jugando 'el juego bonito' contra nuestras selecciones nacionales y ennuestrosestadios."
+  },
+  "ourDemands": {
+    "title": "Las Exigencias",
+    "text": "Los jefes de nuestras Federaciones de Fútbol tienen la autoridad ejecutiva para emitir un boicot completo a cualquier equipo y a cualquier jugador.",
+    "demands": {
+      "1": "Boicotear a la Selección Nacional de Israel",
+      "2": "Boicotear a los Clubes Israelíes",
+      "3": "Prohibir a los jugadores israelíes"
+    },
+    "button": "Inundar la Federación"
+  },
+  "CTA": {
+    "title": "Inundar la Federación",
+    "text": "Contacta a los representantes de tu Federación de Fútbol y exige que tomen medidas.",
+    "button1": "Ponte en contacto",
+    "button2": "Copiar plantilla de correo electrónico"
+  },
+  "callout": "No más esperas. No más excusas. Boicot a Israel ahora.",
+  "about": {
+    "title": "Acerca de",
+    "text": "Esta campaña está impulsada por una coalición de gente común – organizadores, activistas, humanitarios y aficionados al fútbol – que luchan por la justicia, la rendición de cuentas y la libertad para Palestina."
+  },
+  "call": {
+    "title": "Llama a tu director de Federación",
+    "text": "Dile a tu director de Federación que boicotee la selección nacional israelí, a los clubes israelíes y prohíba a los jugadores israelíes AHORA.",
+    "countryNumbers": {
+      "Bélgica": {
+        "name": "Bélgica",
+        "number": "+44 20 7831 5000"
+      },
+      "Inglaterra": {
+        "name": "Inglaterra",
+        "number": "+1 202 872 9277"
+      },
+      "Francia": {
+        "name": "Francia",
+        "number": "+1 613 237 5000"
+      },
+      "Grecia": {
+        "name": "Grecia",
+        "number": "+61 2 8020 4000"
+      },
+      "Irlanda": {
+        "name": "Irlanda",
+        "number": "+353 1 676 5811"
+      },
+      "Italia": {
+        "name": "Italia",
+        "number": "+64 4 472 8055"
+      },
+      "Noruega": {
+        "name": "Noruega",
+        "number": "+27 11 327 3200"
+      },
+      "España": {
+        "name": "España",
+        "number": "+34 91 395 4321"
+      }
+    }
+  },
+  "downloads": {
+    "title": "Cubrid las Paredes",
+    "text": "Cubran las paredes de sus ciudades con carteles y pegatinas para asegurense de que la Federación de Fútbol vea las exigencias de boicot a Israel EN TODAS PARTES.",
+    "buttons": {
+      "1": {
+        "label": "Carteles - A4",
+        "url": "https://drive.google.com/drive/u/0/"
+      },
+      "2": {
+        "label": "Carteles - A1",
+        "url": "https://drive.google.com/drive/u/0/"
+      },
+      "3": {
+        "label": "Stickers 3' x 4'",
+        "url": "https://drive.google.com/drive/u/0/"
+      }
+    },
+    "infoLink": {
+      "text": "Todo lo que necesitas saber sobre el pegado de carteles.",
+      "url": "https://crimethinc.com/2017/07/18/a-field-guide-to-wheatpasting-everything-you-need-to-know-to-blanket-the-world-in-posters"
+    },
+    "returnToLinkTreeLink": {
+      "text": "Volver a LinkTree",
+      "url": "https://linktr.ee/game.over.israel"
+    }
+  }
+}

@@ -2,22 +2,22 @@ import PageContainer from '../PageContainer';
 import SectionHeading from '../SectionHeading';
 // import SlantedHeading from '../SlantedHeading';
 import SubHeading from '../SubHeading';
+import whyImg from '/football.png';
+import { useTranslation } from 'react-i18next';
 
 const TheWhy = () => {
+  const { t } = useTranslation();
+
   return (
-    <PageContainer bgColor="bg-boycott-green" textColor="text-boycott-light">
-      <SectionHeading>Why</SectionHeading>
+    <PageContainer bgColor="bg-boycott-blue" textColor="text-boycott-light">
+      <SectionHeading>{t('why.title')}</SectionHeading>
       <div>
-        <SubHeading>
-          Israel is committing genocide and live streaming it to the world, yet
-          they still play “the beautiful game” against our national teams and in
-          our stadiums.
-        </SubHeading>
+        <SubHeading>{t('why.text')}</SubHeading>
       </div>
       <img
-        src="/football.png"
+        src={whyImg}
         alt="Hero"
-        className="w-full max-w-[200px] lg:max-w-sm object-contain opacity-100 absolute right-0 bottom-0"
+        className="w-[30vw] max-w-[500px] object-contain opacity-100 absolute right-0 bottom-0"
         style={{ zIndex: 10 }}
       />
     </PageContainer>

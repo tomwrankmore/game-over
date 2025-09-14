@@ -1,5 +1,7 @@
-import type React from "react";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+// import Button from "@/components/Button";
+import LinkTreeButton from '@/components/LinkTreeButton';
+import Logo from '@/components/Logo';
+// import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 import {
   ExternalLink,
@@ -8,10 +10,8 @@ import {
   Youtube,
   Mail,
   Globe,
-} from "lucide-react";
-import Button from "@/components/Button";
-import LinkTreeButton from "@/components/LinkTreeButton";
-import Logo from "@/components/Logo";
+} from 'lucide-react';
+import type React from 'react';
 
 interface LinkItem {
   title: string;
@@ -21,33 +21,33 @@ interface LinkItem {
 
 const links: LinkItem[] = [
   {
-    title: "My Website",
-    url: "https://example.com",
+    title: 'My Website',
+    url: 'https://example.com',
     icon: <Globe className="h-4 w-4" />,
   },
   {
-    title: "Instagram",
-    url: "https://instagram.com/username",
+    title: 'Instagram',
+    url: 'https://instagram.com/username',
     icon: <Instagram className="h-4 w-4" />,
   },
   {
-    title: "Twitter",
-    url: "https://twitter.com/username",
+    title: 'Twitter',
+    url: 'https://twitter.com/username',
     icon: <Twitter className="h-4 w-4" />,
   },
   {
-    title: "YouTube Channel",
-    url: "https://youtube.com/@username",
+    title: 'YouTube Channel',
+    url: 'https://youtube.com/@username',
     icon: <Youtube className="h-4 w-4" />,
   },
   {
-    title: "Contact Me",
-    url: "mailto:hello@example.com",
+    title: 'Contact Me',
+    url: 'mailto:hello@example.com',
     icon: <Mail className="h-4 w-4" />,
   },
   {
-    title: "Latest Blog Post",
-    url: "https://example.com/blog/latest",
+    title: 'Latest Blog Post',
+    url: 'https://example.com/blog/latest',
     icon: <ExternalLink className="h-4 w-4" />,
   },
 ];
@@ -65,13 +65,13 @@ export function LinktreeProfile() {
             </AvatarFallback>
           </Avatar> */}
           <div className="mb-4 flex justify-center">
-            <Logo isDark />
+            <Logo />
           </div>
 
           {/* <h1 className="mb-2 text-2xl font-bold text-white">@johndoe</h1> */}
           <p className="px-4 text-sm leading-relaxed">
             {
-              "Welcome to my corner of the internet! Find all my links and latest content here."
+              'Welcome to my corner of the internet! Find all my links and latest content here.'
             }
           </p>
         </div>
@@ -95,7 +95,7 @@ export function LinktreeProfile() {
 
         {/* Footer */}
         <div className="mt-8 text-center">
-          <p className="text-boycott-black text-xs">{"Made with ❤️"}</p>
+          <p className="text-boycott-black text-xs">{'Made with ❤️'}</p>
         </div>
       </div>
     </div>

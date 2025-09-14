@@ -1,27 +1,25 @@
 import CTA from '../CTA';
 import PageContainer from '../PageContainer';
 import SectionHeading from '../SectionHeading';
-import SlantedHeading from '../SlantedHeading';
 import SubHeading from '../SubHeading';
+import demandImg from '/ball-grenade.png';
 import { Check } from 'lucide-react';
-
-const listItems = [
-  'Boycott the Israeli National Team',
-  'Boycott Israeli Clubs',
-  'Ban Israeli players',
-];
+import { useTranslation } from 'react-i18next';
 
 const OurDemands = () => {
+  const { t } = useTranslation();
+  const listItems = [
+    t('ourDemands.demands.1'),
+    t('ourDemands.demands.2'),
+    t('ourDemands.demands.3'),
+  ];
   return (
-    <PageContainer>
-      <SectionHeading>Our Demand</SectionHeading>
-      <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-24 text-center lg:text-left">
+    <PageContainer bgColor="bg-boycott-green" textColor="text-boycott-light">
+      <SectionHeading>{t('ourDemands.title')}</SectionHeading>
+      <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-24">
         <div>
-          <SubHeading>
-            The heads of our Football Federations have the executive authority
-            to issue a complete boycott of any team and any player.
-          </SubHeading>
-          <ul className="space-y-4">
+          <SubHeading>{t('ourDemands.text')}</SubHeading>
+          <ul className="space-y-4 mt-6 text-left">
             {listItems.map((item, index) => (
               <li key={index} className="flex items-start gap-3 group">
                 <div className="flex-shrink-0 w-5 h-5 rounded-full bg-primary flex items-center justify-center mt-0.5 transition-transform group-hover:scale-110">
@@ -35,16 +33,12 @@ const OurDemands = () => {
           </ul>
         </div>
         <img
-          src="/ball-grenade.png"
+          src={demandImg}
           alt="Hero"
           className="w-full max-w-sm object-contain opacity-100"
           style={{ zIndex: 10 }}
         />
       </div>
-
-      <SlantedHeading>
-        No more waiting. No more excuses. Boycott Israel now.
-      </SlantedHeading>
       <CTA />
     </PageContainer>
   );

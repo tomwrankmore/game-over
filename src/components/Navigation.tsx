@@ -1,5 +1,6 @@
 'use client';
 
+import LanguageSwitcher from './LanguageSwitcher';
 import Logo from './Logo';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -8,25 +9,21 @@ import { Menu } from 'lucide-react';
 import { useState } from 'react';
 import { FaTiktok, FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
-import { Link } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Navigation = () => {
+  const { lng } = useParams();
   const [isOpen, setIsOpen] = useState(false);
 
-  const navItems = [
-    { name: 'Take Action', href: 'https://linktr.ee/' },
-    { name: 'Flood the Federations', href: 'https://google.com/' },
-    { name: 'Call Your Federation head', href: 'https://google.com/' },
-    { name: 'Cover the Walls', href: 'https://google.com/' },
-    { name: 'Press Inquiries', href: 'https://google.com/' },
-  ];
   return (
     <header className={cn('bg-boycott-red shadow-md fixed top-0 z-50 w-full')}>
       <div className="container mx-auto flex items-center justify-between py-4 px-6 sm:px-0">
-        <Link to="/" className="text-xl font-bold">
-          <Logo isDark={false} />
-        </Link>
+        <NavLink to={`/${lng}`} className="text-xl font-bold">
+          <Logo />
+        </NavLink>
         <div className="flex items-center justify-end gap-4 flex-1">
+          <LanguageSwitcher />
           {/* Mobile Navigation */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
@@ -46,18 +43,54 @@ const Navigation = () => {
             >
               <div className="flex flex-col space-y-4 mt-8">
                 <nav className="flex flex-col space-y-4 text-center">
-                  {navItems.map((item) => (
-                    <Link
-                      key={item.name}
-                      to={item.href}
-                      className="text-lg pb-4 border-b border-boycott-light/25 hover:translate-x-1 transition-all"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      <h1 className="text-lg md:text-xl font-bold">
-                        {item.name}
-                      </h1>
-                    </Link>
-                  ))}
+                  <NavLink
+                    to="https://linktr.ee/game.over.israel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg pb-4 border-b border-boycott-light/25 hover:translate-x-1 transition-all"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <h1 className="text-lg md:text-xl font-bold">
+                      Take Action
+                    </h1>
+                  </NavLink>
+                  <HashLink
+                    smooth
+                    to="#FloodTheFederations"
+                    className="text-lg pb-4 border-b border-boycott-light/25 hover:translate-x-1 transition-all"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <h1 className="text-lg md:text-xl font-bold">
+                      Flood the Federations
+                    </h1>
+                  </HashLink>
+                  <NavLink
+                    to={`/${lng}/call`}
+                    className="text-lg pb-4 border-b border-boycott-light/25 hover:translate-x-1 transition-all"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <h1 className="text-lg md:text-xl font-bold">
+                      Call Your Federation head
+                    </h1>
+                  </NavLink>
+                  <NavLink
+                    to={`/${lng}/downloads`}
+                    className="text-lg pb-4 border-b border-boycott-light/25 hover:translate-x-1 transition-all"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <h1 className="text-lg md:text-xl font-bold">
+                      Cover the Walls
+                    </h1>
+                  </NavLink>
+                  <NavLink
+                    to="https://linktr.ee/game.over.israel"
+                    className="text-lg pb-4 border-b border-boycott-light/25 hover:translate-x-1 transition-all"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <h1 className="text-lg md:text-xl font-bold">
+                      Press Inquiries
+                    </h1>
+                  </NavLink>
                 </nav>
                 <div className="flex flex-row space-x-6 justify-center mt-6">
                   <a

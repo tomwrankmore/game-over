@@ -1,0 +1,66 @@
+{
+  "heroTitle": "Passez à l'action",
+  "why": {
+    "title": "Pourquoi #GameOverIsrael ?",
+    "text": "Israël commet un génocide et le diffuse en direct dans le monde entier, mais ils continuent à jouer « le beau jeu » contre nos équipes nationales et dans nos stades."
+  },
+  "ourDemands": {
+    "title": "The Demands",
+    "text": "The heads of our Football Federations have the executive authority to issue a complete boycott of any team and any player.",
+    "demands": {
+      "1": "Boycott Israel's National Team",
+      "2": "Boycott Israeli Clubs",
+      "3": "Ban Israeli players"
+    },
+    "button": "Flood the Federation"
+  },
+  "CTA": {
+    "title": "Flood the Federation",
+    "text": "Contact the representatives of your Football Federation and demand they take action.",
+    "button1": "Get in touch",
+    "button2": "Copy email template"
+  },
+  "callout": "No more waiting. No more excuses. Boycott Israel now.",
+  "about": {
+    "title": "About",
+    "text": "This campaign is powered by a coalition of ordinary people - organisers, activists, humanitarians and football fans - fighting for justice, accountability and freedom for Palestine."
+  },
+  "call": {
+    "title": "Call your Federation Director",
+    "text": "Tell your Federation Director to boycott the Israeli national team, Israeli clubs and ban Israeli players NOW.",
+    "countryNumbers": {
+      "Belgium": {
+        "name": "Belgium",
+        "number": "+44 20 7831 5000"
+      },
+      "England": {
+        "name": "England",
+        "number": "+1 202 872 9277"
+      },
+      "France": {
+        "name": "France",
+        "number": "+1 613 237 5000"
+      },
+      "Greece": {
+        "name": "Greece",
+        "number": "+61 2 8020 4000"
+      },
+      "Ireland": {
+        "name": "Ireland",
+        "number": "+353 1 676 5811"
+      },
+      "Italy": {
+        "name": "Italy",
+        "number": "+64 4 472 8055"
+      },
+      "Norway": {
+        "name": "Norway",
+        "number": "+27 11 327 3200"
+      },
+      "Spain": {
+        "name": "Spain",
+        "number": "+34 91 395 4321"
+      }
+    }
+  }
+}

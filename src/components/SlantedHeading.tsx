@@ -7,7 +7,7 @@ interface SlantedHeadingProps {
 const SlantedHeading: React.FC<SlantedHeadingProps> = ({ children }) => {
   return (
     <div className="transform md:-skew-y-6 md:my-12 py-8">
-      <h1 className="text-4xl lg:text-5xl xl:text-7xl uppercase font-bold md:mb-4 text-center">
+      <h1 className="text-4xl lg:text-5xl xl:text-7xl uppercase font-bold md:mb-4 text-center text-boycott-light">
         {children}
       </h1>
     </div>
