@@ -1,0 +1,92 @@
+{
+  "heroTitle": "Take action",
+  "why": {
+    "title": "Why #GameOverIsrael?",
+    "text": "Israel is committing genocide and live streaming it to the world, yet they still play 'the beautiful game' against our national teams and in our stadiums."
+  },
+  "ourDemands": {
+    "title": "The Demands",
+    "text": "The heads of our Football Federations have the executive authority to issue a complete boycott of any team and any player.",
+    "demands": {
+      "1": "Boycott Israel's National Team",
+      "2": "Boycott Israeli Clubs",
+      "3": "Ban Israeli players"
+    },
+    "button": "Flood the Federation"
+  },
+  "CTA": {
+    "title": "Flood the Federation",
+    "text": "Contact the representatives of your Football Federation and demand they take action.",
+    "button1": "Get in touch",
+    "button2": "Copy email template"
+  },
+  "callout": "No more waiting. No more excuses. Boycott Israel now.",
+  "about": {
+    "title": "About",
+    "text": "This campaign is powered by a coalition of ordinary people - organisers, activists, humanitarians and football fans - fighting for justice, accountability and freedom for Palestine."
+  },
+  "call": {
+    "title": "Call your Federation Director",
+    "text": "Tell your Federation Director to boycott the Israeli national team, Israeli clubs and ban Israeli players NOW.",
+    "countryNumbers": {
+      "Belgium": {
+        "name": "Belgium",
+        "number": "+44 20 7831 5000"
+      },
+      "England": {
+        "name": "England",
+        "number": "+1 202 872 9277"
+      },
+      "France": {
+        "name": "France",
+        "number": "+1 613 237 5000"
+      },
+      "Greece": {
+        "name": "Greece",
+        "number": "+61 2 8020 4000"
+      },
+      "Ireland": {
+        "name": "Ireland",
+        "number": "+353 1 676 5811"
+      },
+      "Italy": {
+        "name": "Italy",
+        "number": "+64 4 472 8055"
+      },
+      "Norway": {
+        "name": "Norway",
+        "number": "+27 11 327 3200"
+      },
+      "Spain": {
+        "name": "Spain",
+        "number": "+34 91 395 4321"
+      }
+    }
+  },
+  "downloads": {
+    "title": "Cover the Walls",
+    "text": "Cover your city's walls with posters and stickers to make sure the Football Federation sees the boycott Israel demands EVERYWHERE.",
+    "buttons": {
+      "1": {
+        "label": "Posters - A4",
+        "url": "https://drive.google.com/drive/u/0/"
+      },
+      "2": {
+        "label": "Posters - A1",
+        "url": "https://drive.google.com/drive/u/0/"
+      },
+      "3": {
+        "label": "Stickers 3' x 4'",
+        "url": "https://drive.google.com/drive/u/0/"
+      }
+    },
+    "infoLink": {
+      "text": "Everything you need to know about flyposting",
+      "url": "https://crimethinc.com/2017/07/18/a-field-guide-to-wheatpasting-everything-you-need-to-know-to-blanket-the-world-in-posters"
+    },
+    "returnToLinkTreeLink": {
+      "text": "Back to LinkTree",
+      "url": "https://linktr.ee/game.over.israel"
+    }
+  }
+}
