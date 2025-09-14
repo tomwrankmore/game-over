@@ -28,38 +28,34 @@
   "call": {
     "title": "Call your Federation Director",
     "text": "Tell your Federation Director to boycott the Israeli national team, Israeli clubs and ban Israeli players NOW.",
-    "countryNumbers": {
-      "Belgium": {
-        "name": "Belgium",
-        "number": "+44 20 7831 5000"
-      },
+    "countryContacts": {
       "England": {
         "name": "England",
-        "number": "+1 202 872 9277"
+        "email": "Mark.bullingham@thefa.com"
       },
-      "France": {
-        "name": "France",
-        "number": "+1 613 237 5000"
-      },
-      "Greece": {
-        "name": "Greece",
-        "number": "+61 2 8020 4000"
-      },
-      "Ireland": {
-        "name": "Ireland",
-        "number": "+353 1 676 5811"
-      },
-      "Italy": {
-        "name": "Italy",
-        "number": "+64 4 472 8055"
+      "Scotland": {
+        "name": "Scotland",
+        "email": "mike.mulraney@scottishfa.co.uk"
       },
       "Norway": {
         "name": "Norway",
-        "number": "+27 11 327 3200"
+        "email": "President@fotball.no"
       },
-      "Spain": {
-        "name": "Spain",
-        "number": "+34 91 395 4321"
+      "Ireland": {
+        "name": "Ireland",
+        "email": "Paul.cooke@fai.ie"
+      },
+      "Italy": {
+        "name": "Italy",
+        "email": "g.graviba@figc.it"
+      },
+      "France": {
+        "name": "France",
+        "email": "Pdiallo@fff.fr"
+      },
+      "Greece": {
+        "name": "Greece",
+        "email": "gkagkatsis@epo.gr"
       }
     }
   },

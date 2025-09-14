@@ -28,7 +28,7 @@
   "call": {
     "title": "Call your Federation Director",
     "text": "Tell your Federation Director to boycott the Israeli national team, Israeli clubs and ban Israeli players NOW.",
-    "countryNumbers": {
+    "countryContacts": {
       "Belgium": {
         "name": "Belgium",
         "number": "+44 20 7831 5000"
