@@ -84,23 +84,23 @@
     "buttons": {
       "1": {
         "label": "Change your profile picture",
-        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Profile%20picture/logo_1080x1080.jpg"
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Profile%20picture/logo_1080x1080.jpgv"
       },
       "2": {
         "label": "Images for socials",
-        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Social/socials.zip"
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Social/Spanish%20Socials.zip"
       },
       "3": {
         "label": "Posters - A4",
-        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Posters%20-%20A4/Posters-A4.zip"
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Posters%20-%20A4/ES_Posters-A4.zip"
       },
       "4": {
         "label": "Posters - A1",
-        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Posters%20-%20A1/Posters-A1.zip"
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Posters%20-%20A1/ES_Posters-A1.zip"
       },
       "5": {
         "label": "Stickers 3' x 4'",
-        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Stickers/Stickers.zip"
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Stickers/ES_Stickers.zip"
       }
     },
     "infoLink": {
