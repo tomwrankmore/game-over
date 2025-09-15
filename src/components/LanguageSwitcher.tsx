@@ -1,9 +1,7 @@
 import { Button } from '@/components/ui/button';
 import {
   Command,
-  CommandEmpty,
   CommandGroup,
-  CommandInput,
   CommandItem,
   CommandList,
 } from '@/components/ui/command';
@@ -14,30 +12,14 @@ import {
 } from '@/components/ui/popover';
 import { cn } from '@/lib/utils';
 import { Check, ChevronsUpDown } from 'lucide-react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 
-const languages = [
-  {
-    value: 'en',
-    label: 'EN',
-  },
-  {
-    value: 'es',
-    label: 'ES',
-  },
-  {
-    value: 'fr',
-    label: 'FR',
-  },
-  {
-    value: 'de',
-    label: 'DE',
-  },
-  {
-    value: 'it',
-    label: 'IT',
-  },
+// ✅ keep this in sync with App.tsx
+export const supportedLocales = [
+  { value: 'en', label: 'EN' },
+  { value: 'es', label: 'ES' },
+  { value: 'fr', label: 'FR' },
 ];
 
 export default function LanguageSwitcher() {
@@ -45,23 +27,37 @@ export default function LanguageSwitcher() {
   const navigate = useNavigate();
   const location = useLocation();
   const [open, setOpen] = useState(false);
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState(
+    lng && supportedLocales.some((l) => l.value === lng)
+      ? lng
+      : supportedLocales[0].value
+  );
+
+  // keep dropdown value in sync with route param
+  useEffect(() => {
+    if (lng && supportedLocales.some((l) => l.value === lng)) {
+      setValue(lng);
+    } else {
+      setValue(supportedLocales[0].value);
+    }
+  }, [lng]);
 
   const switchLanguage = (newLng: string) => {
-    if (!lng) return;
-    const newPath = location.pathname.replace(`/${lng}`, `/${newLng}`);
-    navigate(newPath + location.search, { replace: true });
+    const segments = location.pathname.split('/').filter(Boolean);
+
+    if (segments.length === 0) {
+      // No path — go to base of new language
+      navigate(`/${newLng}`, { replace: true });
+      return;
+    }
+
+    // Replace first segment with new language
+    segments[0] = newLng;
+    const newPath = `/${segments.join('/')}${location.search}`;
+    navigate(newPath, { replace: true });
   };
 
   return (
-    // <div style={{ display: 'flex', gap: '0.5rem' }}>
-    //   <button disabled={lng === 'en'} onClick={() => switchLanguage('en')}>
-    //     English
-    //   </button>
-    //   <button disabled={lng === 'es'} onClick={() => switchLanguage('es')}>
-    //     Español
-    //   </button>
-    // </div>
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
         <Button
@@ -70,9 +66,8 @@ export default function LanguageSwitcher() {
           aria-expanded={open}
           className="w-[80px] justify-between"
         >
-          {value
-            ? languages.find((language) => language.value === value)?.label
-            : 'EN'}
+          {supportedLocales.find((language) => language.value === value)
+            ?.label ?? supportedLocales[0].label}
           <ChevronsUpDown className="opacity-50" />
         </Button>
       </PopoverTrigger>
@@ -80,12 +75,12 @@ export default function LanguageSwitcher() {
         <Command>
           <CommandList>
             <CommandGroup>
-              {languages.map((language) => (
+              {supportedLocales.map((language) => (
                 <CommandItem
                   key={language.value}
                   value={language.value}
-                  onSelect={(currentValue) => {
-                    setValue(currentValue === value ? '' : currentValue);
+                  onSelect={() => {
+                    setValue(language.value);
                     switchLanguage(language.value);
                     setOpen(false);
                   }}

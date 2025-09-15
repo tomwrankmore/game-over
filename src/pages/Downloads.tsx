@@ -1,19 +1,23 @@
+import Black from '/coverthewalls/black.jpg';
+import Blue from '/coverthewalls/blue.jpg';
+import Green from '/coverthewalls/green.jpg';
+import Red from '/coverthewalls/red.jpg';
 import PageContainer from '@/components/PageContainer';
 import SectionHeading from '@/components/SectionHeading';
-import SubHeading from '@/components/SubHeading';
+// import SubHeading from '@/components/SubHeading';
 import { Button } from '@/components/ui/button';
-import { link } from 'fs/promises';
 import { useTranslation } from 'react-i18next';
 import { FaCloudDownloadAlt } from 'react-icons/fa';
 
 const Downloads = () => {
   const { t } = useTranslation();
 
-  const downloadLinks = [
-    { label: t('downloads.buttons.1'), url: t('downloads.links.1') },
-    { label: t('downloads.buttons.2'), url: t('downloads.links.2') },
-    { label: t('downloads.buttons.3'), url: t('downloads.links.3') },
-  ];
+  const images = {
+    black: Black,
+    blue: Blue,
+    green: Green,
+    red: Red,
+  };
 
   return (
     <PageContainer
@@ -22,7 +26,17 @@ const Downloads = () => {
       fullHeight
     >
       <SectionHeading>{t('downloads.title')}</SectionHeading>
-      <SubHeading>{t('downloads.text')}</SubHeading>
+      <div className="flex flex-wrap justify-start mb-8">
+        {Object.entries(images).map(([color, src]) => (
+          <img
+            key={color}
+            src={src}
+            alt={`${color} cover the walls poster`}
+            className="w-32 h-auto inline-block m-2 shadow-xl"
+          />
+        ))}
+      </div>
+      {/* <SubHeading>{t('downloads.text')}</SubHeading> */}
       <ul>
         {Object.entries(t('downloads.buttons', { returnObjects: true })).map(
           ([download, { label, url }]) => (
@@ -46,14 +60,9 @@ const Downloads = () => {
           href={t('downloads.infoLink.url')}
           target="_blank"
           rel="noopener noreferrer"
+          className="underline hover:text-boycott-light/65"
         >
-          <Button
-            size="lg"
-            variant="secondary"
-            className="text-boycott-black uppercase font-bold bg-boycott-light hover:underline cursor-pointer rounded-full py-4"
-          >
-            {t('downloads.infoLink.text')}
-          </Button>
+          {t('downloads.infoLink.text')}
         </a>
       </div>
     </PageContainer>

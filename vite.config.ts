@@ -10,5 +10,8 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: '/game-over/', // Change to '/' when not deploying to GitHub Pages
+  base: '/', // DigitalOcean serves from root
+  build: {
+    outDir: 'dist', // explicit output dir for DO
+  },
 });

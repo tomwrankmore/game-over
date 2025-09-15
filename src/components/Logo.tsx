@@ -1,11 +1,11 @@
-import logo from '/logo.png';
+import logo from '/PDR_Logo_Slim_White.svg';
 
 const Logo = () => {
   return (
     <img
       src={logo}
       alt="Logo"
-      style={{ width: '100%', height: 'auto', maxWidth: '100px' }}
+      className="w-full h-auto max-w-[150px] md:max-w-[200px]"
     />
   );
 };

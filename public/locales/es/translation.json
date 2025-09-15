@@ -1,7 +1,15 @@
 {
+  "nav": {
+    "takeAction": "Toma Acción",
+    "floodFeds": "Inundar las Federaciones",
+    "demos": "Manifestaciones y Protestas",
+    "call": "Llama a tu director de Federación",
+    "cover": "Cubrid las Paredes",
+    "press": "Consultas de Prensa"
+  },
   "heroTitle": "Toma Acción n",
   "why": {
-    "title": "Por qué #GameOverIsrael?",
+    "title": "Por qué #GameOverIsrael",
     "text": "Israel está cometiendo un genocidio y lo transmite en directo al mundo, y aún asísiguen jugando 'el juego bonito' contra nuestras selecciones nacionales y ennuestrosestadios."
   },
   "ourDemands": {
@@ -17,7 +25,10 @@
   "CTA": {
     "title": "Inundar la Federación",
     "text": "Contacta a los representantes de tu Federación de Fútbol y exige que tomen medidas.",
-    "button1": "Ponte en contacto",
+    "button1": {
+      "label": "Ponte en contacto",
+      "email": "mailto:Mark.bullingham@thefa.com"
+    },
     "button2": "Copiar plantilla de correo electrónico"
   },
   "callout": "No más esperas. No más excusas. Boicot a Israel ahora.",
@@ -28,38 +39,42 @@
   "call": {
     "title": "Llama a tu director de Federación",
     "text": "Dile a tu director de Federación que boicotee la selección nacional israelí, a los clubes israelíes y prohíba a los jugadores israelíes AHORA.",
-    "countryNumbers": {
+    "countryContacts": {
       "Bélgica": {
-        "name": "Bélgica",
-        "number": "+44 20 7831 5000"
+        "name": "Bélgica 🇧🇪",
+        "number": "+3224771211"
       },
       "Inglaterra": {
-        "name": "Inglaterra",
-        "number": "+1 202 872 9277"
+        "name": "Inglaterra 🇬🇧",
+        "number": "+44 800 169 1863"
       },
       "Francia": {
-        "name": "Francia",
-        "number": "+1 613 237 5000"
+        "name": "Francia 🇫🇷",
+        "number": "+33144317300"
       },
       "Grecia": {
-        "name": "Grecia",
-        "number": "+61 2 8020 4000"
+        "name": "Grecia 🇬🇷",
+        "number": "+302109306000"
       },
       "Irlanda": {
-        "name": "Irlanda",
-        "number": "+353 1 676 5811"
+        "name": "Irlanda 🇮🇪",
+        "number": "+353 1 8999 500"
       },
       "Italia": {
-        "name": "Italia",
-        "number": "+64 4 472 8055"
+        "name": "Italia 🇮🇹",
+        "number": "+390684911"
       },
       "Noruega": {
-        "name": "Noruega",
-        "number": "+27 11 327 3200"
+        "name": "Noruega 🇳🇴",
+        "number": "+47 21 02 93 00"
+      },
+      "Escocia": {
+        "name": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "number": "+44 141 616 6000"
       },
       "España": {
-        "name": "España",
-        "number": "+34 91 395 4321"
+        "name": "España 🇪🇸",
+        "number": "+34 914 959 800"
       }
     }
   },
@@ -68,20 +83,28 @@
     "text": "Cubran las paredes de sus ciudades con carteles y pegatinas para asegurense de que la Federación de Fútbol vea las exigencias de boicot a Israel EN TODAS PARTES.",
     "buttons": {
       "1": {
-        "label": "Carteles - A4",
-        "url": "https://drive.google.com/drive/u/0/"
+        "label": "Change your profile picture",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Profile%20picture/logo_1080x1080.jpg"
       },
       "2": {
-        "label": "Carteles - A1",
-        "url": "https://drive.google.com/drive/u/0/"
+        "label": "Images for socials",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Social/socials.zip"
       },
       "3": {
+        "label": "Posters - A4",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Posters%20-%20A4/Posters-A4.zip"
+      },
+      "4": {
+        "label": "Posters - A1",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Posters%20-%20A1/Posters-A1.zip"
+      },
+      "5": {
         "label": "Stickers 3' x 4'",
-        "url": "https://drive.google.com/drive/u/0/"
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Stickers/Stickers.zip"
       }
     },
     "infoLink": {
-      "text": "Todo lo que necesitas saber sobre el pegado de carteles.",
+      "text": "Flyposting tips",
       "url": "https://crimethinc.com/2017/07/18/a-field-guide-to-wheatpasting-everything-you-need-to-know-to-blanket-the-world-in-posters"
     },
     "returnToLinkTreeLink": {

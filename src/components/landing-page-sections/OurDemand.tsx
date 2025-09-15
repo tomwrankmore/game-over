@@ -1,10 +1,11 @@
-import CTA from '../CTA';
-import PageContainer from '../PageContainer';
-import SectionHeading from '../SectionHeading';
-import SubHeading from '../SubHeading';
-import demandImg from '/ball-grenade.png';
-import { Check } from 'lucide-react';
+// import CTA from '../CTA';
+// import PageContainer from '../PageContainer';
+// import SectionHeading from '../SectionHeading';
+// import SubHeading from '../SubHeading';
+// import demandImg from '/ball-grenade.png';
+import WhiteBG from '/textured/White_BG-min.png';
 import { useTranslation } from 'react-i18next';
+import { GoDotFill } from 'react-icons/go';
 
 const OurDemands = () => {
   const { t } = useTranslation();
@@ -14,33 +15,51 @@ const OurDemands = () => {
     t('ourDemands.demands.3'),
   ];
   return (
-    <PageContainer bgColor="bg-boycott-green" textColor="text-boycott-light">
-      <SectionHeading>{t('ourDemands.title')}</SectionHeading>
-      <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-24">
-        <div>
-          <SubHeading>{t('ourDemands.text')}</SubHeading>
-          <ul className="space-y-4 mt-6 text-left">
-            {listItems.map((item, index) => (
-              <li key={index} className="flex items-start gap-3 group">
-                <div className="flex-shrink-0 w-5 h-5 rounded-full bg-primary flex items-center justify-center mt-0.5 transition-transform group-hover:scale-110">
-                  <Check className="w-3 h-3" strokeWidth={2.5} color="white" />
-                </div>
-                <span className="leading-relaxed font-medium uppercase italic">
-                  {item}
-                </span>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <img
+    <div className={`relative overflow-hidden`}>
+      <img
+        src={WhiteBG}
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover -z-10"
+      />
+      <div className="mx-auto container py-24 px-6 text-center">
+        <h1 className="text-4xl lg:text-5xl uppercase font-bold mb-6 z-10 block text-center">
+          {t('ourDemands.title')}
+        </h1>
+        <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-24 text-center justify-center">
+          <div>
+            <h2 className="relative z-20 text-center text-xl font-light mb-4 lg:mb-8 block max-w-xl lg:max-w-2xl mx-auto">
+              {t('ourDemands.text')}
+            </h2>
+            <ul className="space-y-4 mt-6 list-disc list-inside flex flex-col items-center">
+              {listItems.map((item, index) => (
+                <li
+                  key={index}
+                  className="flex items-center gap-3 group demand-item tracking-wider"
+                >
+                  <div className="hidden sm:flex flex-shrink-0 w-5 h-5 rounded-full bg-primary items-center justify-center mt-0.5 transition-transform group-hover:scale-110">
+                    <GoDotFill
+                      className="w-3 h-3"
+                      strokeWidth={2.5}
+                      color="white"
+                    />
+                  </div>
+                  <span className="leading-relaxed font-medium uppercase italic text-xl">
+                    {item}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          {/* <img
           src={demandImg}
           alt="Hero"
           className="w-full max-w-sm object-contain opacity-100"
           style={{ zIndex: 10 }}
-        />
+        /> */}
+        </div>
+        {/* <CTA /> */}
       </div>
-      <CTA />
-    </PageContainer>
+    </div>
   );
 };
 

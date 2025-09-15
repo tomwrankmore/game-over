@@ -13,19 +13,35 @@ const Call = () => {
     >
       <SectionHeading>{t('call.title')}</SectionHeading>
       <SubHeading>{t('call.text')}</SubHeading>
-      {/* <p className="text-lg max-w-3xl mx-auto text-center">
-        Find your country's football federation head and call them to demand
-        they take a stand against Israel's actions.
-      </p> */}
-      <ul>
-        {Object.entries(t('call.countryNumbers', { returnObjects: true })).map(
-          ([country, { name, number }]) => (
-            <li key={country}>
-              {name}: <a href={`tel:${number}`}>{number}</a>
-            </li>
-          )
-        )}
-      </ul>
+      <div className="overflow-x-auto mt-6">
+        <table className="min-w-full border-collapse text-sm md:text-base">
+          <thead className="">
+            <tr>
+              <th className="px-4 py-2 text-left">Country</th>
+              <th className="px-4 py-2 text-left">Contact Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Object.entries(
+              t('call.countryContacts', { returnObjects: true })
+            ).map(([country, { name, number }]) => (
+              <tr key={country} className="">
+                <td className="border border-gray-100/25 border-dotted px-4 py-2">
+                  {name}
+                </td>
+                <td className="border border-gray-100/25 border-dotted px-4 py-2">
+                  <a
+                    href={`tel:${number}`}
+                    className="underline text-boycott-light hover:text-boycott-light/80"
+                  >
+                    {number}
+                  </a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </PageContainer>
   );
 };

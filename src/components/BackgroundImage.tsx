@@ -37,7 +37,7 @@ export default function FullscreenBackground({
   className = '',
   style = {},
   priority = false, // if true, image is not lazy-loaded (useful for above-the-fold hero)
-  fallbackColor = '#111827', // tailwind gray-900 default fallback
+  fallbackColor = '#fff', // background color while image loads
 }: FullscreenBackgroundProps) {
   return (
     <div

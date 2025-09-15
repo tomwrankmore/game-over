@@ -1,7 +1,5 @@
 'use client';
 
-import CopButton from '../CopButton';
-import SectionHeading from '../SectionHeading';
 import styles from './style.module.scss';
 import Vid1 from '/vid-1-thumb.jpg';
 import Vid2 from '/vid-2-thumb.jpg';
@@ -90,7 +88,7 @@ const VideoSwiper = () => {
           grabCursor={false}
           centeredSlides={true}
           slidesPerView={'auto'}
-          initialSlide={1}
+          initialSlide={0}
           coverflowEffect={{
             rotate: 50,
             stretch: 0,
