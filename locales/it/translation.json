@@ -83,16 +83,24 @@
     "text": "Cover your city's walls with posters and stickers to make sure the Football Federation sees the boycott Israel demands EVERYWHERE.",
     "buttons": {
       "1": {
-        "label": "Posters - A4",
-        "url": "https://drive.google.com/drive/u/0/"
+        "label": "Change your profile picture",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Profile%20picture/logo_1080x1080.jpg"
       },
       "2": {
-        "label": "Posters - A1",
-        "url": "https://drive.google.com/drive/u/0/"
+        "label": "Images for socials",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Social/socials.zip"
       },
       "3": {
+        "label": "Posters - A4",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Posters%20-%20A4/Posters-A4.zip"
+      },
+      "4": {
+        "label": "Posters - A1",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Posters%20-%20A1/Posters-A1.zip"
+      },
+      "5": {
         "label": "Stickers 3' x 4'",
-        "url": "https://drive.google.com/drive/u/0/"
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Stickers/Stickers.zip"
       }
     },
     "infoLink": {
