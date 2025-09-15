@@ -1,11 +1,11 @@
 {
   "nav": {
-    "takeAction": "Take Action",
-    "floodFeds": "Flood the Federations",
-    "demos": "Demos and Protests",
-    "call": "Call your Federation head",
-    "cover": "Cover the Walls",
-    "press": "Press Inquiries"
+    "takeAction": "Toma Acción",
+    "floodFeds": "Inundar las Federaciones",
+    "demos": "Manifestaciones y Protestas",
+    "call": "Llama a tu director de Federación",
+    "cover": "Cubrid las Paredes",
+    "press": "Consultas de Prensa"
   },
   "heroTitle": "Toma Acción n",
   "why": {
