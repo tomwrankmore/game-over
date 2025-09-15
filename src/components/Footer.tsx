@@ -1,6 +1,7 @@
 import LanguageSwitcher from './LanguageSwitcher';
 import { FaInstagram, FaTiktok } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
+
+// import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -67,7 +68,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-row space-x-6 justify-end">
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/gameover.israel"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -76,7 +77,7 @@ const Footer = () => {
             <FaInstagram size={28} />
           </a>
           <a
-            href="https://tiktok.com/"
+            href="https://www.tiktok.com/@gameover.israel"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="TikTok"
@@ -84,7 +85,7 @@ const Footer = () => {
           >
             <FaTiktok size={28} />
           </a>
-          <a
+          {/* <a
             href="https://x.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -92,7 +93,7 @@ const Footer = () => {
             className="hover:scale-120 transition-all"
           >
             <FaXTwitter size={28} />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
