@@ -1,66 +1,107 @@
 {
+  "nav": {
+    "takeAction": "Passez à l'action",
+    "floodFeds": "Faites pression sur les Fédérations",
+    "demos": "Manifs et Rassemblements",
+    "call": "Appelez le président de votre Fédération",
+    "cover": "Recouvrez les murs",
+    "press": "Contacts presse"
+  },
   "heroTitle": "Passez à l'action",
   "why": {
-    "title": "Pourquoi #GameOverIsrael ?",
-    "text": "Israël commet un génocide et le diffuse en direct dans le monde entier, mais ils continuent à jouer « le beau jeu » contre nos équipes nationales et dans nos stades."
+    "title": "Pourquoi #GameOverIsrael",
+    "text": "Israël commet un génocide en direct, sous les yeux du monde entier et pourtant ses équipes continuent à jouer le beau jeu, contre nos séléctions nationales, dans nos propres stades."
   },
   "ourDemands": {
-    "title": "The Demands",
-    "text": "The heads of our Football Federations have the executive authority to issue a complete boycott of any team and any player.",
+    "title": "Les Revendications",
+    "text": "Les présidents de nos fédérations de football ont le pouvoir de décider d'un boycott total de toute équipe et de tout joueur.",
     "demands": {
-      "1": "Boycott Israel's National Team",
-      "2": "Boycott Israeli Clubs",
-      "3": "Ban Israeli players"
+      "1": "Boycotter l'équipe nationale d'Israël",
+      "2": "Boycotter les clubs israéliens",
+      "3": "Interdir les joueurs israéliens"
     },
-    "button": "Flood the Federation"
+    "button": "Faites pression sur la Fédération"
   },
   "CTA": {
-    "title": "Flood the Federation",
+    "title": "Faites pression sur la Fédération",
     "text": "Contact the representatives of your Football Federation and demand they take action.",
-    "button1": "Get in touch",
+    "button1": {
+      "label": "Get in touch",
+      "email": "mailto:Mark.bullingham@thefa.com"
+    },
     "button2": "Copy email template"
   },
   "callout": "No more waiting. No more excuses. Boycott Israel now.",
   "about": {
-    "title": "About",
-    "text": "This campaign is powered by a coalition of ordinary people - organisers, activists, humanitarians and football fans - fighting for justice, accountability and freedom for Palestine."
+    "title": "À propos",
+    "text": "Cette campagne est portée par une coalition de gens ordinaires, organisateurs, activistes, humanitaires et fans de football, qui luttent pour la justice, la fin de l'impunité et la liberté pour la Palestine."
   },
   "call": {
-    "title": "Call your Federation Director",
-    "text": "Tell your Federation Director to boycott the Israeli national team, Israeli clubs and ban Israeli players NOW.",
+    "title": "Appelez le président de votre Fédération",
+    "text": "Dites au président de votre Fédération de boycotter l'équipe nationale israélienne, les clubs israéliens et d'interdir les joueurs israéliens MAINTENANT.",
     "countryContacts": {
-      "Belgium": {
-        "name": "Belgium",
-        "number": "+44 20 7831 5000"
+      "Belgique": {
+        "name": "Belgique",
+        "number": "+3224771211"
       },
-      "England": {
-        "name": "England",
-        "number": "+1 202 872 9277"
+      "Angleterre": {
+        "name": "Angleterre",
+        "number": "+44 800 169 1863"
       },
       "France": {
         "name": "France",
-        "number": "+1 613 237 5000"
+        "number": "+33144317300"
       },
-      "Greece": {
-        "name": "Greece",
-        "number": "+61 2 8020 4000"
+      "Grèce": {
+        "name": "Grèce",
+        "number": "+302109306000"
       },
-      "Ireland": {
-        "name": "Ireland",
-        "number": "+353 1 676 5811"
+      "Irlande": {
+        "name": "Irlande",
+        "number": "+353 1 8999 500"
       },
-      "Italy": {
-        "name": "Italy",
-        "number": "+64 4 472 8055"
+      "Italie": {
+        "name": "Italie",
+        "number": "+390684911"
       },
-      "Norway": {
-        "name": "Norway",
-        "number": "+27 11 327 3200"
+      "Norvège": {
+        "name": "Norvège",
+        "number": "+47 21 02 93 00"
       },
-      "Spain": {
-        "name": "Spain",
-        "number": "+34 91 395 4321"
+      "Écosse": {
+        "name": "Écosse",
+        "number": "+44 141 616 6000"
+      },
+      "Espagne": {
+        "name": "Espagne",
+        "number": "+34 914 959 800"
       }
+    }
+  },
+  "downloads": {
+    "title": "Recouvrez les Murs",
+    "text": "Recouvrez les murs de votre ville d'affiches et d'autocollants pour que la Fédération de Football voie les revendications et appels au boycott d'Israël PARTOUT.",
+    "buttons": {
+      "1": {
+        "label": "Affiches - A4",
+        "url": "https://drive.google.com/drive/u/0/"
+      },
+      "2": {
+        "label": "Affiches - A1",
+        "url": "https://drive.google.com/drive/u/0/"
+      },
+      "3": {
+        "label": "Autocollants 3' x 4'",
+        "url": "https://drive.google.com/drive/u/0/"
+      }
+    },
+    "infoLink": {
+      "text": "Tout ce que vous devez savoir sur l'affchage sauvage.",
+      "url": "https://crimethinc.com/2017/07/18/a-field-guide-to-wheatpasting-everything-you-need-to-know-to-blanket-the-world-in-posters"
+    },
+    "returnToLinkTreeLink": {
+      "text": "Retour au LinkTree",
+      "url": "https://linktr.ee/game.over.israel"
     }
   }
 }
