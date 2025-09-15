@@ -3,7 +3,7 @@
     "takeAction": "Take Action",
     "floodFeds": "Flood the Federations",
     "demos": "Demos and Protests",
-    "call": "Call your Federation head",
+    "call": "Call your Federation",
     "cover": "Cover the Walls",
     "press": "Press Inquiries"
   },
@@ -41,39 +41,39 @@
     "text": "Tell your Federation Director to boycott the Israeli national team, Israeli clubs and ban Israeli players NOW.",
     "countryContacts": {
       "Belgium": {
-        "name": "Belgium",
+        "name": "Belgium 🇧🇪",
         "number": "+3224771211"
       },
       "England": {
-        "name": "England",
+        "name": "England 🇬🇧",
         "number": "+44 800 169 1863"
       },
       "France": {
-        "name": "France",
+        "name": "France 🇫🇷",
         "number": "+33144317300"
       },
       "Greece": {
-        "name": "Greece",
+        "name": "Greece 🇬🇷",
         "number": "+302109306000"
       },
       "Ireland": {
-        "name": "Ireland",
+        "name": "Ireland 🇮🇪",
         "number": "+353 1 8999 500"
       },
       "Italy": {
-        "name": "Italy",
+        "name": "Italy 🇮🇹",
         "number": "+390684911"
       },
       "Norway": {
-        "name": "Norway",
+        "name": "Norway 🇳🇴",
         "number": "+47 21 02 93 00"
       },
       "Scotland": {
-        "name": "Scotland",
+        "name": "Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
         "number": "+44 141 616 6000"
       },
       "Spain": {
-        "name": "Spain",
+        "name": "Spain 🇪🇸",
         "number": "+34 914 959 800"
       }
     }
