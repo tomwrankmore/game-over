@@ -20,6 +20,7 @@ export const supportedLocales = [
   { value: 'en', label: 'EN' },
   { value: 'es', label: 'ES' },
   { value: 'fr', label: 'FR' },
+  { value: 'it', label: 'IT' },
 ];
 
 export default function LanguageSwitcher() {

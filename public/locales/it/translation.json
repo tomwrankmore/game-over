@@ -1,105 +1,105 @@
 {
   "nav": {
-    "takeAction": "Take Action",
-    "floodFeds": "Flood the Federations",
-    "demos": "Demos and Protests",
-    "call": "Call your Federation",
-    "cover": "Cover the Walls",
-    "press": "Press Inquiries"
+    "takeAction": "Agisci",
+    "floodFeds": "Inonda le Federazioni",
+    "demos": "Manifestazioni e Proteste",
+    "call": "Chiama la tua Federazione",
+    "cover": "Copri i Muri",
+    "press": "Richieste Stampa"
   },
-  "heroTitle": "Take action",
+  "heroTitle": "Agisci",
   "why": {
-    "title": "Why #GameOverIsrael",
-    "text": "Israel is committing genocide and live streaming it to the world, yet they still play 'the beautiful game' against our national teams and in our stadiums."
+    "title": "Perché #GameOverIsrael",
+    "text": "Israele sta commettendo un genocidio e lo sta trasmettendo in diretta al mondo, eppure continua a giocare 'il gioco più bello del mondo' contro le nostre squadre nazionali e nei nostri stadi."
   },
   "ourDemands": {
-    "title": "Our Demands",
-    "text": "The heads of our Football Federations have the executive authority to issue a complete boycott of any team and any player.",
+    "title": "Le nostre richieste",
+    "text": "I dirigenti delle nostre Federazioni Calcistiche hanno l'autorità esecutiva per emettere un boicottaggio completo di qualsiasi squadra e qualsiasi giocatore.",
     "demands": {
-      "1": "Boycott Israel's National Team",
-      "2": "Boycott Israeli Clubs",
-      "3": "Ban Israeli players"
+      "1": "Boicotta la Nazionale Israeliana",
+      "2": "Boicotta i Club Israeliani",
+      "3": "Bandisci i giocatori israeliani"
     },
-    "button": "Flood the Federation"
+    "button": "Inonda la Federazione"
   },
   "CTA": {
-    "title": "Flood the Federation",
-    "text": "Contact the representatives of your Football Federation and demand they take action.",
+    "title": "Inonda la Federazione",
+    "text": "Contatta i rappresentanti della tua Federazione Calcistica e chiedi che prendano provvedimenti.",
     "button1": {
-      "label": "Get in touch",
+      "label": "Contatta",
       "email": "mailto:Mark.bullingham@thefa.com"
     },
-    "button2": "Copy email template"
+    "button2": "Copia il modello di email"
   },
-  "callout": "No more waiting. No more excuses. Boycott Israel now.",
+  "callout": "Niente più attese. Niente più scuse. Boicotta Israele ora.",
   "about": {
-    "title": "About",
-    "text": "This campaign is powered by a coalition of ordinary people - organisers, activists, humanitarians and football fans - fighting for justice, accountability and freedom for Palestine."
+    "title": "Informazioni",
+    "text": "Questa campagna è sostenuta da una coalizione di persone comuni - organizzatori, attivisti, umanitari e tifosi di calcio - che lottano per giustizia, responsabilità e libertà per la Palestina."
   },
   "call": {
-    "title": "Call your Federation Director",
-    "text": "Tell your Federation Director to boycott the Israeli national team, Israeli clubs and ban Israeli players NOW.",
+    "title": "Chiama il tuo Direttore di Federazione",
+    "text": "Dì al tuo Direttore di Federazione di boicottare la Nazionale Israeliana, i club israeliani e di bandire i giocatori israeliani ORA.",
     "countryContacts": {
       "Belgium": {
-        "name": "Belgium 🇧🇪",
-        "number": "+3224771211"
+        "name": "Belgio 🇧🇪",
+        "number": "+32 2 477 12 11"
       },
-      "England": {
-        "name": "England 🇬🇧",
+      "Inghilterra": {
+        "name": "Inghilterra 🇬🇧",
         "number": "+44 800 169 1863"
       },
-      "France": {
-        "name": "France 🇫🇷",
-        "number": "+33144317300"
+      "Francia": {
+        "name": "Francia 🇫🇷",
+        "number": "+33 1 44 31 73 00"
       },
-      "Greece": {
-        "name": "Greece 🇬🇷",
-        "number": "+302109306000"
+      "Grecia": {
+        "name": "Grecia 🇬🇷",
+        "number": "+30 210 930 6000"
       },
-      "Ireland": {
-        "name": "Ireland 🇮🇪",
+      "Irlanda": {
+        "name": "Irlanda 🇮🇪",
         "number": "+353 1 8999 500"
       },
-      "Italy": {
-        "name": "Italy 🇮🇹",
-        "number": "+390684911"
+      "Italia": {
+        "name": "Italia 🇮🇹",
+        "number": "+39 06 84911"
       },
-      "Norway": {
-        "name": "Norway 🇳🇴",
+      "Norvegia": {
+        "name": "Norvegia 🇳🇴",
         "number": "+47 21 02 93 00"
       },
-      "Scotland": {
-        "name": "Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "Scozia": {
+        "name": "Scozia 🏴",
         "number": "+44 141 616 6000"
       },
-      "Spain": {
-        "name": "Spain 🇪🇸",
+      "Spagna": {
+        "name": "Spagna 🇪🇸",
         "number": "+34 914 959 800"
       }
     }
   },
   "downloads": {
-    "title": "Cover the Walls",
-    "text": "Cover your city's walls with posters and stickers to make sure the Football Federation sees the boycott Israel demands EVERYWHERE.",
+    "title": "Copri i Muri",
+    "text": "Copri i muri della tua città con manifesti e adesivi per assicurarti che la Federazione Calcistica veda le richieste di boicottaggio di Israele OVUNQUE.",
     "buttons": {
       "1": {
-        "label": "Change your profile picture",
+        "label": "Cambia la tua immagine del profilo",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/Profile%20picture/logo_1080x1080.jpg"
       },
       "2": {
-        "label": "Images for socials",
+        "label": "Immagini per i social",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/Social/Italian%20Socials%20.zip"
       },
       "3": {
-        "label": "Posters - A4",
+        "label": "Manifesti - A4",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/Posters%20-%20A4/IT_Posters-A4.zip"
       },
       "4": {
-        "label": "Posters - A1",
+        "label": "Manifesti - A1",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/Posters%20-%20A1/IT_Posters-A1.zip"
       },
       "5": {
-        "label": "Stickers 3' x 4'",
+        "label": "Adesivi 3' x 4'",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/Stickers/IT_Stickers.zip"
       }
     },
@@ -108,7 +108,7 @@
       "url": "https://crimethinc.com/2017/07/18/a-field-guide-to-wheatpasting-everything-you-need-to-know-to-blanket-the-world-in-posters"
     },
     "returnToLinkTreeLink": {
-      "text": "Back to LinkTree",
+      "text": "Torna a LinkTree",
       "url": "https://linktr.ee/game.over.israel"
     }
   }

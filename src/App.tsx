@@ -14,7 +14,7 @@ import {
   BrowserRouter,
 } from 'react-router-dom';
 
-const supportedLocales = ['en', 'es', 'fr'];
+const supportedLocales = ['en', 'es', 'fr', 'it'];
 
 function LocaleWrapper() {
   const { lng } = useParams(); // e.g. "en"
