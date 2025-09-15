@@ -91,14 +91,18 @@
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Social/English.zip"
       },
       "3": {
+        "label": "T Shirt designs",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/T-shirt%20designs/EN_Tshirts.zip"
+      },
+      "4": {
         "label": "Posters - A4",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Posters%20-%20A4/Posters-A4.zip"
       },
-      "4": {
+      "5": {
         "label": "Posters - A1",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Posters%20-%20A1/Posters-A1.zip"
       },
-      "5": {
+      "6": {
         "label": "Stickers 3' x 4'",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/English/Stickers/Stickers.zip"
       }
