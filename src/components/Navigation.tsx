@@ -23,35 +23,6 @@ const Navigation = () => {
           <Logo />
         </NavLink>
         <div className="flex items-center justify-end gap-4 flex-1">
-          <div className="flex flex-row space-x-6 justify-center text-white">
-            <a
-              href="https://www.instagram.com/gameover.israel"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram"
-              className="hover:text-boycott-light/80 hover:scale-120 transition-all"
-            >
-              <FaInstagram size={28} />
-            </a>
-            <a
-              href="https://www.tiktok.com/@gameover.israel"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="TikTok"
-              className="hover:text-boycott-light/80 hover:scale-120 transition-all"
-            >
-              <FaTiktok size={28} />
-            </a>
-            {/*  <a
-              href="https://x.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="X"
-              className="hover:text-boycott-light/80 hover:scale-120 transition-all"
-            >
-              <FaXTwitter size={28} />
-            </a> */}
-          </div>
           {/* Mobile Navigation */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
@@ -122,8 +93,38 @@ const Navigation = () => {
                     </h1>
                   </a>
                 </nav>
+
                 <div className="flex justify-center">
                   <LanguageSwitcher />
+                </div>
+                <div className="flex flex-row space-x-6 justify-center text-white mt-2">
+                  <a
+                    href="https://www.instagram.com/gameover.israel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                    className="hover:text-boycott-light/80 hover:scale-120 transition-all"
+                  >
+                    <FaInstagram size={28} />
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@gameover.israel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="TikTok"
+                    className="hover:text-boycott-light/80 hover:scale-120 transition-all"
+                  >
+                    <FaTiktok size={28} />
+                  </a>
+                  {/*  <a
+              href="https://x.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X"
+              className="hover:text-boycott-light/80 hover:scale-120 transition-all"
+            >
+              <FaXTwitter size={28} />
+            </a> */}
                 </div>
                 {/* <div className="flex flex-row space-x-6 justify-center mt-6 text-white">
                   <a

@@ -65,14 +65,14 @@ export default function LanguageSwitcher() {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-[80px] justify-between"
+          className="w-[80px] justify-between text-boycott-black"
         >
           {supportedLocales.find((language) => language.value === value)
             ?.label ?? supportedLocales[0].label}
           <ChevronsUpDown className="opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-[80px] p-0">
+      <PopoverContent className="w-[80px] p-0 ">
         <Command>
           <CommandList>
             <CommandGroup>

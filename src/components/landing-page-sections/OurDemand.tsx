@@ -3,7 +3,7 @@
 // import SectionHeading from '../SectionHeading';
 // import SubHeading from '../SubHeading';
 // import demandImg from '/ball-grenade.png';
-import WhiteBG from '/textured/White_BG-min.png';
+import GreenBG from '/textured/Green_BG-min.png';
 import { useTranslation } from 'react-i18next';
 import { GoDotFill } from 'react-icons/go';
 
@@ -17,11 +17,11 @@ const OurDemands = () => {
   return (
     <div className={`relative overflow-hidden`}>
       <img
-        src={WhiteBG}
+        src={GreenBG}
         alt=""
         className="absolute inset-0 w-full h-full object-cover -z-10"
       />
-      <div className="mx-auto container py-24 px-6 text-center">
+      <div className="mx-auto container py-24 px-6 text-center text-boycott-light">
         <h1 className="text-4xl lg:text-5xl uppercase font-bold mb-6 z-10 block text-center">
           {t('ourDemands.title')}
         </h1>
@@ -43,7 +43,7 @@ const OurDemands = () => {
                       color="white"
                     />
                   </div>
-                  <span className="leading-relaxed font-medium uppercase italic text-xl">
+                  <span className="leading-relaxed font-medium uppercase text-xl not-italic">
                     {item}
                   </span>
                 </li>

@@ -30,9 +30,9 @@ const Footer = () => {
 
     // </div>
 
-    <div className="bg-boycott-light text-boycott-black py-6 relative z-50">
-      <div className="container mx-auto grid grid-cols-2 grid-rows-2 md:grid-cols-[1fr_2fr_1fr] md:grid-rows-1 items-center justify-center md:gap-2">
-        <div className="flex items-center justify-center flex-row md:row-start-1 md:col-start-1 gap-4">
+    <div className="bg-boycott-black text-boycott-light py-6 px-6 relative z-50">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] md:grid-rows-1 items-center justify-center md:gap-2">
+        <div className="flex items-center justify-center flex-row md:row-start-1 md:col-start-1 gap-4 mb-4 sm:mb-0">
           <p className="md:col-start-1">#GameOverIsrael</p> <LanguageSwitcher />
         </div>
         <div className="text-xs text-center col-span-2 md:col-span-1 md:row-start-1 md:col-start-2 ">
@@ -40,7 +40,7 @@ const Footer = () => {
             This site is owned and maintained by Global Witness and has not been
             authorised, approved, or endorsed by COP29 or the UNFCCC.
           </p> */}
-          <div className="flex gap-4 items-center justify-center flex-col">
+          <div className="flex gap-4 items-center justify-center flex-col mb-2 sm:mb-0">
             <p>
               Contact Us:{' '}
               <a
@@ -66,7 +66,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row space-x-6 justify-end">
+        <div className="flex flex-row space-x-6 justify-center sm:justify-end py-2 sm:py-0">
           <a
             href="https://www.instagram.com/gameover.israel"
             target="_blank"

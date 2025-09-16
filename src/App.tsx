@@ -45,25 +45,25 @@ function LocaleWrapper() {
 
 function App() {
   return (
-    // <BrowserRouter>
-    //   <div>
-    //     <div className="text-boycott-black relative">
-    //       <Routes>
-    //         {/* Redirect base to default locale */}
-    //         <Route
-    //           path="/"
-    //           element={<Navigate to={`/${supportedLocales[0]}`} replace />}
-    //         />
-    //         {/* Locale-aware routes */}
-    //         <Route path="/:lng/*" element={<LocaleWrapper />} />
-    //       </Routes>
-    //     </div>
-    //     <Footer />
-    //   </div>
-    // </BrowserRouter>
-    <div className="min-h-[80vh] flex items-center justify-center">
-      <h1 className="text-3xl font-bold underline">Coming soon</h1>
-    </div>
+    <BrowserRouter>
+      <div>
+        <div className="text-boycott-black relative">
+          <Routes>
+            {/* Redirect base to default locale */}
+            <Route
+              path="/"
+              element={<Navigate to={`/${supportedLocales[0]}`} replace />}
+            />
+            {/* Locale-aware routes */}
+            <Route path="/:lng/*" element={<LocaleWrapper />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+    </BrowserRouter>
+    // <div className="min-h-[80vh] flex items-center justify-center">
+    //   <h1 className="text-3xl font-bold underline">Coming soon</h1>
+    // </div>
   );
 }
 

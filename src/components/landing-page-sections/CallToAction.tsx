@@ -35,14 +35,14 @@ const CallToAction = () => {
             </Button>
           </a>
         </div>
-        <div className="flex-1">
+        {/* <div className="flex-1">
           <img
             src={Img}
             alt="Hero"
             className="w-full md:max-w-[500px]"
             style={{ zIndex: 10 }}
           />
-        </div>
+        </div> */}
 
         {/* <CTA />
         <div className="text-center py-10">

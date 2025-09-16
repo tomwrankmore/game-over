@@ -2,6 +2,7 @@ import Black from '/coverthewalls/black.jpg';
 import Blue from '/coverthewalls/blue.jpg';
 import Green from '/coverthewalls/green.jpg';
 import Red from '/coverthewalls/red.jpg';
+import RedBG from '/textured/Red_BG-min.png';
 import PageContainer from '@/components/PageContainer';
 import SectionHeading from '@/components/SectionHeading';
 // import SubHeading from '@/components/SubHeading';
@@ -20,11 +21,12 @@ const Downloads = () => {
   };
 
   return (
-    <PageContainer
-      bgColor="bg-boycott-red"
-      textColor="text-boycott-light"
-      fullHeight
-    >
+    <PageContainer textColor="text-boycott-light" fullHeight>
+      <img
+        src={RedBG}
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover -z-10"
+      />
       <SectionHeading>{t('downloads.title')}</SectionHeading>
       <div className="flex flex-wrap justify-start mb-8">
         {Object.entries(images).map(([color, src]) => (
@@ -32,7 +34,7 @@ const Downloads = () => {
             key={color}
             src={src}
             alt={`${color} cover the walls poster`}
-            className="w-32 h-auto inline-block m-2 shadow-xl"
+            className="w-32 h-auto inline-block m-2 shadow-2xl shadow-black"
           />
         ))}
       </div>
