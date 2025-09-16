@@ -44,6 +44,18 @@ function LocaleWrapper() {
 }
 
 function App() {
+  useEffect(() => {
+    // Run after initial render
+    if (window.location.hash) {
+      const el = document.querySelector(window.location.hash);
+      if (el) {
+        // small timeout ensures DOM is fully painted
+        setTimeout(() => {
+          el.scrollIntoView({ behavior: 'smooth' });
+        }, 0);
+      }
+    }
+  }, []);
   return (
     <BrowserRouter>
       <div>
