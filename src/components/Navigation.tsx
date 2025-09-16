@@ -108,7 +108,7 @@ const Navigation = () => {
                     <FaInstagram size={28} />
                   </a>
                   <a
-                    href="https://www.tiktok.com/@gameover.israel"
+                    href="https://www.tiktok.com/@gameoverisrael"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="TikTok"
