@@ -86,8 +86,8 @@ const Hero = () => {
       >
         <Button
           size="lg"
-          variant="outline"
-          className="text-boycott-black uppercase font-bold bg-boycott-light hover:underline cursor-pointer rounded-full py-4"
+          variant="default"
+          className="text-boycott-light uppercase font-bold bg-boycott-black hover:underline cursor-pointer rounded-full py-4"
         >
           <FaMailBulk />
           {t('CTA.title')}
