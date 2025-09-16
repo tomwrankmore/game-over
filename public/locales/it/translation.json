@@ -95,10 +95,14 @@
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/Posters%20-%20A4/IT_Posters-A4.zip"
       },
       "4": {
+        "label": "Design per magliette",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/T-shirt%20designs/IT_Tshirt.zip "
+      },
+      "5": {
         "label": "Manifesti - A1",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/Posters%20-%20A1/IT_Posters-A1.zip"
       },
-      "5": {
+      "6": {
         "label": "Adesivi 3' x 4'",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/Stickers/IT_Stickers.zip"
       }

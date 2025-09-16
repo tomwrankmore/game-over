@@ -95,10 +95,14 @@
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Posters%20-%20A4/ES_Posters-A4.zip"
       },
       "4": {
+        "label": "Diseños de camisetas",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/T-shirt%20designs/ES%20Tshirt.zip"
+      },
+      "5": {
         "label": "Carteles - A1",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Posters%20-%20A1/ES_Posters-A1.zip"
       },
-      "5": {
+      "6": {
         "label": "Pegatinas - 3” x 4'",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Stickers/ES_Stickers.zip"
       }
