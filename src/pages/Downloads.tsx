@@ -1,6 +1,6 @@
+import BlackEn from '/coverthewalls/en/black.jpg';
 import BlueEN from '/coverthewalls/en/blue.jpg';
 import GreenEN from '/coverthewalls/en/green.jpg';
-import BlackEn from '/coverthewalls/en/red.jpg';
 import RedEN from '/coverthewalls/en/red.jpg';
 import BlueES from '/coverthewalls/es/blue.jpg';
 import GreenES from '/coverthewalls/es/green.jpg';
