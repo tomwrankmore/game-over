@@ -11,7 +11,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="relative h-full w-full overflow-hidden pt-36 p-4">
+    <div className="relative h-full w-full overflow-hidden pt-12 mt-[68px] sm:mt-[74px] p-4">
       <img
         src={RedBG}
         alt=""

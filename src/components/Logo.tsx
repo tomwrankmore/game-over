@@ -5,7 +5,7 @@ const Logo = () => {
     <img
       src={logo}
       alt="Logo"
-      className="w-full h-auto max-w-[150px] md:max-w-[200px]"
+      className="min-w-[150px] sm:min-w-[200px] w-full h-auto max-w-[150px] md:max-w-[200px]"
     />
   );
 };
