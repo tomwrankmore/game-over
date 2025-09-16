@@ -20,10 +20,10 @@
       "2": "Boycott Israeli Clubs",
       "3": "Ban Israeli players"
     },
-    "button": "Flood the Federation"
+    "button": "Inondate la Federazione"
   },
   "CTA": {
-    "title": "Flood the Federation",
+    "title": "Inondate la Federazione",
     "text": "Contact the representatives of your Football Federation and demand they take action.",
     "button1": {
       "label": "Get in touch",
@@ -112,12 +112,18 @@
       }
     },
     "infoLink": {
-      "text": "Everything you need to know about flyposting",
+      "text": "Everything you need to know about flyposting.",
       "url": "https://crimethinc.com/2017/07/18/a-field-guide-to-wheatpasting-everything-you-need-to-know-to-blanket-the-world-in-posters"
     },
     "returnToLinkTreeLink": {
       "text": "Back to LinkTree",
       "url": "https://linktr.ee/game.over.israel"
     }
+  },
+  "contactUs": {
+    "contact": "Contact Us:",
+    "contactEmail": "mailto:contact@gameoverisrael.com",
+    "press": "For press inquiries, please contact:",
+    "pressEmail": "press@gameoverisrael.com"
   }
 }

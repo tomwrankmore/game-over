@@ -3,7 +3,7 @@
     "takeAction": "Passez à l'action",
     "floodFeds": "Faites pression sur les Fédérations",
     "demos": "Manifs et Rassemblements",
-    "call": "Appelez le président de votre Fédération",
+    "call": "Appelez votre Fédération",
     "cover": "Recouvrez les murs",
     "press": "Contacts presse"
   },
@@ -31,14 +31,14 @@
     },
     "button2": "Copy email template"
   },
-  "callout": "No more waiting. No more excuses. Boycott Israel now.",
+  "callout": "Plus d'attente. Plus d'excuses. Boycottez Israël dès maintenant.",
   "about": {
     "title": "À propos",
     "text": "Cette campagne est portée par une coalition de gens ordinaires, organisateurs, activistes, humanitaires et fans de football, qui luttent pour la justice, la fin de l'impunité et la liberté pour la Palestine."
   },
   "call": {
-    "title": "Appelez le président de votre Fédération",
-    "text": "Dites au président de votre Fédération de boycotter l'équipe nationale israélienne, les clubs israéliens et d'interdir les joueurs israéliens MAINTENANT.",
+    "title": "Appelez votre Fédération",
+    "text": "Dites au président de votre Fédération de boycotter l'équipe nationale israélienne, les clubs israéliens et d'interdir les joueurs israéliens.",
     "countryContacts": {
       "Belgique": {
         "name": "Belgique",
@@ -83,33 +83,39 @@
     "text": "Recouvrez les murs de votre ville d'affiches et d'autocollants pour que la Fédération de Football voie les revendications et appels au boycott d'Israël PARTOUT.",
     "buttons": {
       "1": {
-        "label": "Change your profile picture",
+        "label": "Changez votre photo de profil",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/French/Profile%20picture/logo_1080x1080.jpg"
       },
       "2": {
-        "label": "Images for socials",
+        "label": "Images pour les réseaux sociaux",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/French/Social/French.zip"
       },
       "3": {
-        "label": "Posters - A4",
+        "label": "Affiches - A4",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/French/Posters%20-%20A4/FR_Posters-A4.zip"
       },
       "4": {
-        "label": "Posters - A1",
+        "label": "Affiches - A1",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/French/Posters%20-%20A1/FR_Posters-A1.zip"
       },
       "5": {
-        "label": "Stickers 3' x 4'",
+        "label": "Autocollants - 3” x 4”",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/French/Stickers/FR_Stickers.zip"
       }
     },
     "infoLink": {
-      "text": "Flyposting tips",
+      "text": "Tout ce que vous devez savoir sur l'affchage sauvage.",
       "url": "https://crimethinc.com/2017/07/18/a-field-guide-to-wheatpasting-everything-you-need-to-know-to-blanket-the-world-in-posters"
     },
     "returnToLinkTreeLink": {
       "text": "Retour au LinkTree",
       "url": "https://linktr.ee/game.over.israel"
     }
+  },
+  "contactUs": {
+    "contact": "Nous contacter:",
+    "contactEmail": "mailto:contact@gameoverisrael.com",
+    "press": "Pour les demandes de presse, veuillez contacter:",
+    "pressEmail": "press@gameoverisrael.com"
   }
 }

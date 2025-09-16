@@ -1,20 +1,20 @@
 {
   "nav": {
-    "takeAction": "Agisci",
-    "floodFeds": "Inonda le Federazioni",
+    "takeAction": "Passa all'Azione",
+    "floodFeds": "Inondate le Federazioni",
     "demos": "Manifestazioni e Proteste",
     "call": "Chiama la tua Federazione",
-    "cover": "Copri i Muri",
-    "press": "Richieste Stampa"
+    "cover": "Ricoprite i Muri",
+    "press": "Richieste alla stampa"
   },
-  "heroTitle": "Agisci",
+  "heroTitle": "Passa all'Azione",
   "why": {
     "title": "Perché #GameOverIsrael",
-    "text": "Israele sta commettendo un genocidio e lo sta trasmettendo in diretta al mondo, eppure continua a giocare 'il gioco più bello del mondo' contro le nostre squadre nazionali e nei nostri stadi."
+    "text": "Israele sta commettendo un genocidio e lo sta trasmettendo in diretta mondiale, eppure continua a giocare “il bel gioco” contro le nostre nazionali e nei nostri stadi."
   },
   "ourDemands": {
     "title": "Le nostre richieste",
-    "text": "I dirigenti delle nostre Federazioni Calcistiche hanno l'autorità esecutiva per emettere un boicottaggio completo di qualsiasi squadra e qualsiasi giocatore.",
+    "text": "I capi delle nostre Federazioni Calcistiche hanno l'autorità esecutiva per decretare il boicottaggio completo di qualsiasi squadra e giocatore.",
     "demands": {
       "1": "Boicotta la Nazionale Israeliana",
       "2": "Boicotta i Club Israeliani",
@@ -31,7 +31,7 @@
     },
     "button2": "Copia il modello di email"
   },
-  "callout": "Niente più attese. Niente più scuse. Boicotta Israele ora.",
+  "callout": "Basta aspettare. Basta scuse. Boicotta Israele adesso.",
   "about": {
     "title": "Informazioni",
     "text": "Questa campagna è sostenuta da una coalizione di persone comuni - organizzatori, attivisti, umanitari e tifosi di calcio - che lottano per giustizia, responsabilità e libertà per la Palestina."
@@ -79,7 +79,7 @@
     }
   },
   "downloads": {
-    "title": "Copri i Muri",
+    "title": "Ricoprite i Muri",
     "text": "Copri i muri della tua città con manifesti e adesivi per assicurarti che la Federazione Calcistica veda le richieste di boicottaggio di Israele OVUNQUE.",
     "buttons": {
       "1": {
@@ -104,12 +104,18 @@
       }
     },
     "infoLink": {
-      "text": "Flyposting tips",
+      "text": "Tutto ciò che devi sapere sull'affissione abusiva.",
       "url": "https://crimethinc.com/2017/07/18/a-field-guide-to-wheatpasting-everything-you-need-to-know-to-blanket-the-world-in-posters"
     },
     "returnToLinkTreeLink": {
       "text": "Torna a LinkTree",
       "url": "https://linktr.ee/game.over.israel"
     }
+  },
+  "contactUs": {
+    "contact": "Contattaci",
+    "contactEmail": "mailto:contact@gameoverisrael.com",
+    "press": "Per consultazioni stampa, contattare: press@gameoverisrael.com",
+    "pressEmail": "press@gameoverisrael.com"
   }
 }

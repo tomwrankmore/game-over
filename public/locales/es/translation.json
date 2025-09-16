@@ -3,7 +3,7 @@
     "takeAction": "Toma Acción",
     "floodFeds": "Inundar las Federaciones",
     "demos": "Manifestaciones y Protestas",
-    "call": "Llama a tu director de Federación",
+    "call": "Llama a tu Federación",
     "cover": "Cubrid las Paredes",
     "press": "Consultas de Prensa"
   },
@@ -37,7 +37,7 @@
     "text": "Esta campaña está impulsada por una coalición de gente común – organizadores, activistas, humanitarios y aficionados al fútbol – que luchan por la justicia, la rendición de cuentas y la libertad para Palestina."
   },
   "call": {
-    "title": "Llama a tu director de Federación",
+    "title": "Llama a tu Federación",
     "text": "Dile a tu director de Federación que boicotee la selección nacional israelí, a los clubes israelíes y prohíba a los jugadores israelíes AHORA.",
     "countryContacts": {
       "Bélgica": {
@@ -111,5 +111,11 @@
       "text": "Volver a LinkTree",
       "url": "https://linktr.ee/game.over.israel"
     }
+  },
+  "contactUs": {
+    "contact": "Contáctenos:",
+    "contactEmail": "mailto:contact@gameoverisrael.com",
+    "press": "Para consultas de prensa, por favor contacte a:",
+    "pressEmail": "press@gameoverisrael.com"
   }
 }

@@ -42,7 +42,6 @@ const Hero = () => {
       <ReactPlayer
         url="https://www.youtube.com/watch?v=ucm5lhFB7Ps"
         playing
-        loop
         width="100%"
         height="100%"
         className="absolute top-0 left-0 object-cover"
@@ -70,7 +69,6 @@ const Hero = () => {
           <ReactPlayer
             url="https://www.youtube.com/watch?v=ucm5lhFB7Ps"
             playing
-            loop
             controls={false}
             width="100%"
             height="100%"

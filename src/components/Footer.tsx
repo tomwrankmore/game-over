@@ -1,9 +1,11 @@
 import LanguageSwitcher from './LanguageSwitcher';
+import { useTranslation } from 'react-i18next';
 import { FaInstagram, FaTiktok } from 'react-icons/fa';
 
 // import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     // <div className="bg-boycott-ligh text-boycott-black flex flex-row w-full justify-between items-center p-6 border-t border-boycott-light/70">
     //   <div>
@@ -42,7 +44,7 @@ const Footer = () => {
           </p> */}
           <div className="flex gap-4 items-center justify-center flex-col mb-2 sm:mb-0">
             <p>
-              Contact Us:{' '}
+              {t('contactUs.contact')}{' '}
               <a
                 href="mailto:contact@gameoverisrael.com"
                 target="_blank"
@@ -54,7 +56,7 @@ const Footer = () => {
             </p>
 
             <p>
-              For press inquiries, please contact{' '}
+              {t('contactUs.press')}{' '}
               <a
                 href="mailto:press@gameoverisrael.com"
                 target="_blank"
