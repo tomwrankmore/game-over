@@ -21,16 +21,16 @@ const OurDemands = () => {
         alt=""
         className="absolute inset-0 w-full h-full object-cover -z-10"
       />
-      <div className="mx-auto container py-24 px-6 text-center text-boycott-light">
-        <h1 className="text-4xl lg:text-5xl uppercase font-bold mb-6 z-10 block text-center">
+      <div className="mx-auto container py-24 px-6 text-left text-boycott-light">
+        <h1 className="text-4xl lg:text-5xl uppercase font-bold mb-6 z-10 block text-left">
           {t('ourDemands.title')}
         </h1>
-        <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-24 text-center justify-center">
+        <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-24 text-left justify-center">
           <div>
-            <h2 className="relative z-20 text-center text-xl font-light mb-4 lg:mb-8 block max-w-xl lg:max-w-2xl mx-auto">
+            <h2 className="relative z-20 text-left text-xl font-light mb-4 lg:mb-8 block max-w-xl lg:max-w-2xl mx-auto">
               {t('ourDemands.text')}
             </h2>
-            <ul className="space-y-4 mt-6 list-disc list-inside flex flex-col items-center">
+            <ul className="space-y-4 mt-6 list-disc list-inside flex flex-col items-left">
               {listItems.map((item, index) => (
                 <li
                   key={index}
