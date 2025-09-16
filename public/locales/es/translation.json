@@ -83,28 +83,28 @@
     "text": "Cubran las paredes de sus ciudades con carteles y pegatinas para asegurense de que la Federación de Fútbol vea las exigencias de boicot a Israel EN TODAS PARTES.",
     "buttons": {
       "1": {
-        "label": "Change your profile picture",
+        "label": "Cambia tu foto de perfil",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Profile%20picture/logo_1080x1080.jpgv"
       },
       "2": {
-        "label": "Images for socials",
+        "label": "Imágenes para redes sociales",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Social/Spanish%20Socials.zip"
       },
       "3": {
-        "label": "Posters - A4",
+        "label": "Carteles - A4",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Posters%20-%20A4/ES_Posters-A4.zip"
       },
       "4": {
-        "label": "Posters - A1",
+        "label": "Carteles - A1",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Posters%20-%20A1/ES_Posters-A1.zip"
       },
       "5": {
-        "label": "Stickers 3' x 4'",
+        "label": "Pegatinas - 3” x 4'",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Stickers/ES_Stickers.zip"
       }
     },
     "infoLink": {
-      "text": "Flyposting tips",
+      "text": "Todo lo que necesitas saber sobre el pegado de carteles.",
       "url": "https://crimethinc.com/2017/07/18/a-field-guide-to-wheatpasting-everything-you-need-to-know-to-blanket-the-world-in-posters"
     },
     "returnToLinkTreeLink": {
