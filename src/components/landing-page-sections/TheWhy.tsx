@@ -1,6 +1,6 @@
 import SectionHeading from '../SectionHeading';
 import SubHeading from '../SubHeading';
-import whyImg from '/football.png';
+// import whyImg from '/football.png';
 import BlueBG from '/textured/Blue_Bg-min.png';
 import { useTranslation } from 'react-i18next';
 
@@ -8,7 +8,10 @@ const TheWhy = () => {
   const { t } = useTranslation();
 
   return (
-    <div className={`relative overflow-hidden  text-boycott-light`}>
+    <div
+      className={`relative overflow-hidden  text-boycott-light`}
+      id="the-why"
+    >
       <img
         src={BlueBG}
         alt=""

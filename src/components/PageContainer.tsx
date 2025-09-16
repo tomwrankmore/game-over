@@ -5,6 +5,7 @@ interface PageContainerProps {
   bgColor?: string;
   textColor?: string;
   fullHeight?: boolean;
+  id?: string;
 }
 
 const PageContainer = ({
@@ -12,9 +13,11 @@ const PageContainer = ({
   bgColor,
   textColor,
   fullHeight,
+  id,
 }: PageContainerProps) => {
   return (
     <div
+      id={id}
       className={`relative overflow-hidden ${bgColor ? bgColor : ''} ${textColor ? textColor : ''} ${
         fullHeight ? 'min-h-screen flex items-center pt-16' : ''
       }`}

@@ -2,7 +2,6 @@
 import SectionHeading from '../SectionHeading';
 import SubHeading from '../SubHeading';
 import { Button } from '../ui/button';
-import Img from '/ball-grenade.png';
 import GreenBG from '/textured/Green_BG-min.png';
 import { useTranslation } from 'react-i18next';
 import { FaMailBulk } from 'react-icons/fa';
@@ -10,7 +9,10 @@ import { FaMailBulk } from 'react-icons/fa';
 const CallToAction = () => {
   const { t } = useTranslation();
   return (
-    <div className="relative overflow-hidden text-boycott-light py-24">
+    <div
+      className="relative overflow-hidden text-boycott-light py-24"
+      id="call-to-action"
+    >
       <img
         src={GreenBG}
         alt=""

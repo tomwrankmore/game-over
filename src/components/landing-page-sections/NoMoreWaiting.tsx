@@ -7,7 +7,7 @@ const NoMoreWaiting = () => {
   const { t } = useTranslation();
 
   return (
-    <PageContainer textColor="text-boycott-white">
+    <PageContainer textColor="text-boycott-white" id="no-more-waiting">
       <img
         src={RedBG}
         alt=""

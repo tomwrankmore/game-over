@@ -9,7 +9,7 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <PageContainer textColor="text-boycott-dark">
+    <PageContainer textColor="text-boycott-dark" id="about">
       <img
         src={WhiteBG}
         alt=""

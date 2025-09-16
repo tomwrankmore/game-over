@@ -15,7 +15,7 @@ const OurDemands = () => {
     t('ourDemands.demands.3'),
   ];
   return (
-    <div className={`relative overflow-hidden`}>
+    <div className={`relative overflow-hidden`} id="our-demands">
       <img
         src={GreenBG}
         alt=""
