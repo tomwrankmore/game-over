@@ -1,4 +1,4 @@
-import LanguageSwitcher from './LanguageSwitcher';
+// import LanguageSwitcher from './LanguageSwitcher';
 import Logo from './Logo';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -94,9 +94,9 @@ const Navigation = () => {
                   </a>
                 </nav>
 
-                <div className="flex justify-center">
+                {/* <div className="flex justify-center">
                   <LanguageSwitcher />
-                </div>
+                </div> */}
                 <div className="flex flex-row space-x-6 justify-center text-white mt-2">
                   <a
                     href="https://www.instagram.com/gameover.israel"

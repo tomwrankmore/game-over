@@ -1,5 +1,9 @@
 import Black from '/coverthewalls/black.jpg';
 import Blue from '/coverthewalls/blue.jpg';
+import BlueFR from '/coverthewalls/fr/blue.jpg';
+import GreenFR from '/coverthewalls/fr/green.jpg';
+import BlackFR from '/coverthewalls/fr/red.jpg';
+import RedFR from '/coverthewalls/fr/red.jpg';
 import Green from '/coverthewalls/green.jpg';
 import Red from '/coverthewalls/red.jpg';
 import RedBG from '/textured/Red_BG-min.png';
@@ -18,6 +22,13 @@ const Downloads = () => {
     blue: Blue,
     green: Green,
     red: Red,
+  };
+
+  const frenchImages = {
+    black: BlackFR,
+    blue: BlueFR,
+    green: GreenFR,
+    red: RedFR,
   };
 
   return (
