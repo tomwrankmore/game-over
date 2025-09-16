@@ -1,16 +1,16 @@
 {
   "nav": {
     "takeAction": "Toma Acción",
-    "floodFeds": "Inundar las Federaciones",
+    "floodFeds": "Inunda las Federaciones",
     "demos": "Manifestaciones y Protestas",
     "call": "Llama a tu Federación",
     "cover": "Cubrid las Paredes",
     "press": "Consultas de Prensa"
   },
-  "heroTitle": "Toma Acción n",
+  "heroTitle": "Toma Acción",
   "why": {
     "title": "Por qué #GameOverIsrael",
-    "text": "Israel está cometiendo un genocidio y lo transmite en directo al mundo, y aún asísiguen jugando 'el juego bonito' contra nuestras selecciones nacionales y ennuestrosestadios."
+    "text": "Israel está cometiendo un genocidio y lo transmite en directo al mundo, y aún asísiguen jugando 'el juego bonito' contra nuestras selecciones nacionales y en nuestrosestadios."
   },
   "ourDemands": {
     "title": "Las Exigencias",
@@ -20,10 +20,10 @@
       "2": "Boicotear a los Clubes Israelíes",
       "3": "Prohibir a los jugadores israelíes"
     },
-    "button": "Inundar la Federación"
+    "button": "Inunda las Federaciones"
   },
   "CTA": {
-    "title": "Inundar la Federación",
+    "title": "Inunda las Federaciones",
     "text": "Contacta a los representantes de tu Federación de Fútbol y exige que tomen medidas.",
     "button1": {
       "label": "Ponte en contacto",
@@ -31,10 +31,10 @@
     },
     "button2": "Copiar plantilla de correo electrónico"
   },
-  "callout": "No más esperas. No más excusas. Boicot a Israel ahora.",
+  "callout": "No más espera. No más excusas. Boicotea a Israel ahora.",
   "about": {
     "title": "Acerca de",
-    "text": "Esta campaña está impulsada por una coalición de gente común – organizadores, activistas, humanitarios y aficionados al fútbol – que luchan por la justicia, la rendición de cuentas y la libertad para Palestina."
+    "text": "Esta campaña está impulsada por una coalición de gente común - organizadores, activistas, humanitarios y aficionados al fútbol – que luchan por la justicia, la rendición de cuentas y la libertad para Palestina."
   },
   "call": {
     "title": "Llama a tu Federación",
@@ -79,7 +79,7 @@
     }
   },
   "downloads": {
-    "title": "Cubrid las Paredes",
+    "title": "Cubre las Paredes",
     "text": "Cubran las paredes de sus ciudades con carteles y pegatinas para asegurense de que la Federación de Fútbol vea las exigencias de boicot a Israel EN TODAS PARTES.",
     "buttons": {
       "1": {
