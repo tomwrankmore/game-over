@@ -25,7 +25,7 @@ const OurDemands = () => {
         <h1 className="text-4xl lg:text-5xl uppercase font-bold mb-6 z-10 block text-left">
           {t('ourDemands.title')}
         </h1>
-        <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-24 text-left justify-start">
+        <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-24 text-left justify-start">
           <div>
             <h2 className="relative z-20 text-left text-xl font-light mb-4 lg:mb-8 block max-w-xl lg:max-w-2xl mx-auto">
               {t('ourDemands.text')}
