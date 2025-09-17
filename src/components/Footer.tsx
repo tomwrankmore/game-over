@@ -1,4 +1,4 @@
-import LanguageSwitcher from './LanguageSwitcher';
+// import LanguageSwitcher from './LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
 import { FaInstagram, FaTiktok } from 'react-icons/fa';
 
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] md:grid-rows-1 items-center justify-center md:gap-2">
         <div className="flex items-center justify-center flex-row md:row-start-1 md:col-start-1 gap-4 mb-4 sm:mb-0">
           <p className="md:col-start-1">#GameOverIsrael</p>
-          <LanguageSwitcher />
+          {/* <LanguageSwitcher /> */}
         </div>
         <div className="text-xs text-center col-span-2 md:col-span-1 md:row-start-1 md:col-start-2 ">
           <div className="flex gap-4 items-center justify-center flex-col mb-2 sm:mb-0">
