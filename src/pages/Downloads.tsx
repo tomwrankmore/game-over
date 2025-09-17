@@ -36,7 +36,7 @@ const Downloads = () => {
     black: BlackFR,
     blue: BlueFR,
     green: GreenFR,
-    red: RedFR,
+    // red: RedFR,
   };
 
   const spanishImages = {
