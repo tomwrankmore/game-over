@@ -20,7 +20,7 @@
       "2": "Boicotta i Club Israeliani",
       "3": "Bandisci i giocatori israeliani"
     },
-    "button": "Inonda la Federazione"
+    "button": "Inondate la Federazione"
   },
   "CTA": {
     "title": "Inonda la Federazione",
@@ -37,8 +37,8 @@
     "text": "Questa campagna è sostenuta da una coalizione di persone comuni - organizzatori, attivisti, umanitari e tifosi di calcio - che lottano per giustizia, responsabilità e libertà per la Palestina."
   },
   "call": {
-    "title": "Chiama il tuo Direttore di Federazione",
-    "text": "Dì al tuo Direttore di Federazione di boicottare la Nazionale Israeliana, i club israeliani e di bandire i giocatori israeliani ORA.",
+    "title": "Chiama la tua Federazione",
+    "text": "Di' al presidente della tua Federazione di boicottare la nazionale israeliana, i club israeliani e di bandire i giocatori israeliani.",
     "countryContacts": {
       "Belgium": {
         "name": "Belgio 🇧🇪",
@@ -91,12 +91,12 @@
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/Social/Italian%20Socials%20.zip"
       },
       "3": {
-        "label": "Manifesti - A4",
-        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/Posters%20-%20A4/IT_Posters-A4.zip"
-      },
-      "4": {
         "label": "Design per magliette",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/T-shirt%20designs/IT_Tshirt.zip "
+      },
+      "4": {
+        "label": "Manifesti - A4",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Italian/Posters%20-%20A4/IT_Posters-A4.zip"
       },
       "5": {
         "label": "Manifesti - A1",
@@ -117,9 +117,9 @@
     }
   },
   "contactUs": {
-    "contact": "Contattaci",
+    "contact": "Contattaci: ",
     "contactEmail": "mailto:contact@gameoverisrael.com",
-    "press": "Per consultazioni stampa, contattare: press@gameoverisrael.com",
+    "press": "Per consultazioni stampa, contattare: ",
     "pressEmail": "press@gameoverisrael.com"
   }
 }

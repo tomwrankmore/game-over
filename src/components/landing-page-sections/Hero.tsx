@@ -62,7 +62,7 @@ const Hero = () => {
             className="text-boycott-light uppercase font-bold bg-boycott-black hover:underline cursor-pointer rounded-full py-6"
           >
             <FaMailBulk />
-            {t('CTA.title')}
+            {t('ourDemands.button')}
           </Button>
         </a>
         <a

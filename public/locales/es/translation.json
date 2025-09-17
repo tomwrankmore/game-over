@@ -4,7 +4,7 @@
     "floodFeds": "Inunda las Federaciones",
     "demos": "Manifestaciones y Protestas",
     "call": "Llama a tu Federación",
-    "cover": "Cubrid las Paredes",
+    "cover": "Cubre las Paredes",
     "press": "Consultas de Prensa"
   },
   "heroTitle": "Toma Acción",
@@ -34,11 +34,11 @@
   "callout": "No más espera. No más excusas. Boicotea a Israel ahora.",
   "about": {
     "title": "Acerca de",
-    "text": "Esta campaña está impulsada por una coalición de gente común - organizadores, activistas, humanitarios y aficionados al fútbol – que luchan por la justicia, la rendición de cuentas y la libertad para Palestina."
+    "text": "Esta campaña está impulsada por una coalición de gente común - organizadores, activistas, humanitarios y aficionados al fútbol - que luchan por la justicia, la rendición de cuentas y la libertad para Palestina."
   },
   "call": {
     "title": "Llama a tu Federación",
-    "text": "Dile a tu director de Federación que boicotee la selección nacional israelí, a los clubes israelíes y prohíba a los jugadores israelíes AHORA.",
+    "text": "Dile a tu director de Federación que boicotee la selección nacional israelí, a los clubes israelíes y prohíba a los jugadores israelíes.",
     "countryContacts": {
       "Bélgica": {
         "name": "Bélgica 🇧🇪",
@@ -84,19 +84,19 @@
     "buttons": {
       "1": {
         "label": "Cambia tu foto de perfil",
-        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Profile%20picture/logo_1080x1080.jpgv"
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Profile%20picture/logo_1080x1080.jpg"
       },
       "2": {
         "label": "Imágenes para redes sociales",
         "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Social/Spanish%20Socials.zip"
       },
       "3": {
-        "label": "Carteles - A4",
-        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Posters%20-%20A4/ES_Posters-A4.zip"
+        "label": "Diseños para camisetas",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/T-shirt%20designs/ES%20Tshirt.zip"
       },
       "4": {
-        "label": "Diseños de camisetas",
-        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/T-shirt%20designs/ES%20Tshirt.zip"
+        "label": "Carteles - A4",
+        "url": "https://creative-assets.lon1.digitaloceanspaces.com/Spanish/Posters%20-%20A4/ES_Posters-A4.zip"
       },
       "5": {
         "label": "Carteles - A1",
