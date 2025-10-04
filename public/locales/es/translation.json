@@ -5,6 +5,7 @@
     "demos": "Manifestaciones y Protestas",
     "call": "Llama a tu Federación",
     "cover": "Cubre las Paredes",
+    "latest": "Últimas Noticias",
     "press": "Consultas de Prensa"
   },
   "heroTitle": "Toma Acción",
@@ -40,43 +41,74 @@
     "title": "Llama a tu Federación",
     "text": "Dile a tu director de Federación que boicotee la selección nacional israelí, a los clubes israelíes y prohíba a los jugadores israelíes.",
     "countryContacts": {
-      "Bélgica": {
+      "Belgium": {
         "name": "Bélgica 🇧🇪",
         "number": "+3224771211"
       },
-      "Inglaterra": {
+      "Denmark": {
+        "name": "Dinamarca 🇩🇰",
+        "number": "+45 4326 2222"
+      },
+      "England": {
         "name": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "number": "+44 800 169 1863"
       },
-      "Francia": {
+      "Estonia": {
+        "name": "Estonia 🇪🇪",
+        "number": "+372 627 9960"
+      },
+      "Finland": {
+        "name": "Finlandia 🇫🇮",
+        "number": "+358 9 742 151"
+      },
+      "France": {
         "name": "Francia 🇫🇷",
         "number": "+33144317300"
       },
-      "Grecia": {
+      "Greece": {
         "name": "Grecia 🇬🇷",
         "number": "+302109306000"
       },
-      "Irlanda": {
+      "Ireland": {
         "name": "Irlanda 🇮🇪",
         "number": "+353 1 8999 500"
       },
-      "Italia": {
+      "Italy": {
         "name": "Italia 🇮🇹",
         "number": "+39 06 84912133"
       },
-      "Noruega": {
+      "The Netherlands": {
+        "name": "Países Bajos 🇳🇱",
+        "number": "+31 343 491 424"
+      },
+      "Norway": {
         "name": "Noruega 🇳🇴",
         "number": "+47 21 02 93 00"
       },
-      "Escocia": {
-        "name": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "Portugal": {
+        "name": "Portugal 🇵🇹",
+        "number": "+351 21 325 2700"
+      },
+      "Scotland": {
+        "name": "Escocia 🏴",
         "number": "+44 141 616 6000"
       },
-      "España": {
+      "Slovenia": {
+        "name": "Eslovenia 🇸🇮",
+        "number": "+386 599 96452"
+      },
+      "Spain": {
         "name": "España 🇪🇸",
         "number": "+34 914 959 800"
+      },
+      "Sweden": {
+        "name": "Suecia 🇸🇪",
+        "number": "+46-8-735 09 00"
       }
     }
+  },
+  "latest": {
+    "title": "Últimas Noticias"
   },
   "downloads": {
     "title": "Cubre las Paredes",

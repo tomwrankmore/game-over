@@ -1,8 +1,8 @@
 import SectionHeading from '../SectionHeading';
 import SubHeading from '../SubHeading';
-// import whyImg from '/football.png';
 import BlueBG from '/textured/Blue_Bg-min.png';
 import { useTranslation } from 'react-i18next';
+import ReactPlayer from 'react-player';
 
 const TheWhy = () => {
   const { t } = useTranslation();
@@ -19,15 +19,21 @@ const TheWhy = () => {
       />
       <div className="mx-auto container py-24 px-6">
         <SectionHeading>{t('why.title')}</SectionHeading>
-        <div>
+        <div className="mb-8">
           <SubHeading>{t('why.text')}</SubHeading>
         </div>
-        {/* <img
-          src={whyImg}
-          alt="Hero"
-          className="w-[60vw] md:w-[30vw] md:max-w-[500px] object-contain opacity-100 absolute right-0 bottom-0"
-          style={{ zIndex: 10 }}
-        /> */}
+        <div className="relative w-full flex items-center justify-center ">
+          <div className="relative w-full max-w-4xl aspect-video">
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=VGD-fJm81UM&t=1s"
+              playing={false}
+              controls={true}
+              width="100%"
+              height="100%"
+              className="rounded-2xl overflow-hidden shadow-2xl"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

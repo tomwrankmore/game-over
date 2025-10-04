@@ -5,6 +5,7 @@
     "demos": "Demos and Protests",
     "call": "Call your Federation",
     "cover": "Cover the Walls",
+    "latest": "Latest",
     "press": "Press Inquiries"
   },
   "heroTitle": "Take action",
@@ -44,9 +45,21 @@
         "name": "Belgium 🇧🇪",
         "number": "+3224771211"
       },
+      "Denmark": {
+        "name": "Denmark 🇩🇰",
+        "number": "+45 4326 2222"
+      },
       "England": {
         "name": "England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "number": "+44 800 169 1863"
+      },
+      "Estonia": {
+        "name": "Estonia 🇪🇪",
+        "number": "+372 627 9960"
+      },
+      "Finland": {
+        "name": "Finland 🇫🇮",
+        "number": "+358 9 742 151"
       },
       "France": {
         "name": "France 🇫🇷",
@@ -64,19 +77,38 @@
         "name": "Italy 🇮🇹",
         "number": "+39 06 84912133"
       },
+      "The Netherlands": {
+        "name": "The Netherlands 🇳🇱",
+        "number": "+31 343 491 424"
+      },
       "Norway": {
         "name": "Norway 🇳🇴",
         "number": "+47 21 02 93 00"
+      },
+      "Portugal": {
+        "name": "Portugal 🇵🇹",
+        "number": "+351 21 325 2700"
       },
       "Scotland": {
         "name": "Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
         "number": "+44 141 616 6000"
       },
+      "Slovenia": {
+        "name": "Slovenia 🇸🇮",
+        "number": "+386 599 96452"
+      },
       "Spain": {
         "name": "Spain 🇪🇸",
         "number": "+34 914 959 800"
+      },
+      "Sweden": {
+        "name": "Sweden 🇸🇪",
+        "number": "+46-8-735 09 00"
       }
     }
+  },
+  "latest": {
+    "title": "Latest"
   },
   "downloads": {
     "title": "Cover the Walls",

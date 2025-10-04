@@ -3,7 +3,6 @@ import Logo from './Logo';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
-// import { Menu } from 'lucide-react';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaInstagram, FaTiktok } from 'react-icons/fa';
@@ -100,6 +99,15 @@ const Navigation = () => {
                       {t('nav.cover')}
                     </h1>
                   </NavLink>
+                  <NavLink
+                    to={`/${lng}/latest`}
+                    className="text-lg pb-4 border-b border-boycott-light/25 hover:translate-x-1 transition-all"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <h1 className="text-lg md:text-xl font-bold">
+                      {t('nav.latest')}
+                    </h1>
+                  </NavLink>
                   <a
                     href="mailto:press@gameoverisrael.com"
                     className="text-lg pb-4 border-b border-boycott-light/25 hover:translate-x-1 transition-all"
@@ -133,49 +141,19 @@ const Navigation = () => {
                   >
                     <FaTiktok size={28} />
                   </a>
-                  {/*  <a
-              href="https://x.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="X"
-              className="hover:text-boycott-light/80 hover:scale-120 transition-all"
-            >
-              <FaXTwitter size={28} />
-            </a> */}
                 </div>
-                {/* <div className="flex flex-row space-x-6 justify-center mt-6 text-white">
-                  <a
-                    href="https://instagram.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Instagram"
-                    className="hover:text-boycott-light/80 hover:scale-120 transition-all"
-                  >
-                    <FaInstagram size={28} />
-                  </a>
-                  <a
-                    href="https://tiktok.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="TikTok"
-                    className="hover:text-boycott-light/80 hover:scale-120 transition-all"
-                  >
-                    <FaTiktok size={28} />
-                  </a>
-                  <a
-                    href="https://x.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="X"
-                    className="hover:text-boycott-light/80 hover:scale-120 transition-all"
-                  >
-                    <FaXTwitter size={28} />
-                  </a>
-                </div> */}
               </div>
             </SheetContent>
           </Sheet>
         </div>
+      </div>
+      <div className="w-full h-8 bg-black flex items-center overflow-hidden relative">
+        <NavLink
+          to={`/${lng}/latest`}
+          className="w-full whitespace-nowrap no-underline text-white font-medium text-sm text-center hover:underline"
+        >
+          <span>Check out the latest news!</span>
+        </NavLink>
       </div>
     </header>
   );

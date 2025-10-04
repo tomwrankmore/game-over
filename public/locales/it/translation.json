@@ -5,6 +5,7 @@
     "demos": "Manifestazioni e Proteste",
     "call": "Chiama la tua Federazione",
     "cover": "Ricoprite i Muri",
+    "latest": "Ultime novità",
     "press": "Richieste alla stampa"
   },
   "heroTitle": "Passa all'Azione",
@@ -42,41 +43,72 @@
     "countryContacts": {
       "Belgium": {
         "name": "Belgio 🇧🇪",
-        "number": "+32 2 477 12 11"
+        "number": "+3224771211"
       },
-      "Inghilterra": {
+      "Denmark": {
+        "name": "Danimarca 🇩🇰",
+        "number": "+45 4326 2222"
+      },
+      "England": {
         "name": "Inghilterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "number": "+44 800 169 1863"
       },
-      "Francia": {
+      "Estonia": {
+        "name": "Estonia 🇪🇪",
+        "number": "+372 627 9960"
+      },
+      "Finland": {
+        "name": "Finlandia 🇫🇮",
+        "number": "+358 9 742 151"
+      },
+      "France": {
         "name": "Francia 🇫🇷",
-        "number": "+33 1 44 31 73 00"
+        "number": "+33144317300"
       },
-      "Grecia": {
+      "Greece": {
         "name": "Grecia 🇬🇷",
-        "number": "+30 210 930 6000"
+        "number": "+302109306000"
       },
-      "Irlanda": {
+      "Ireland": {
         "name": "Irlanda 🇮🇪",
         "number": "+353 1 8999 500"
       },
-      "Italia": {
+      "Italy": {
         "name": "Italia 🇮🇹",
         "number": "+39 06 84912133"
       },
-      "Norvegia": {
+      "The Netherlands": {
+        "name": "Paesi Bassi 🇳🇱",
+        "number": "+31 343 491 424"
+      },
+      "Norway": {
         "name": "Norvegia 🇳🇴",
         "number": "+47 21 02 93 00"
       },
-      "Scozia": {
-        "name": "Scozia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "Portugal": {
+        "name": "Portogallo 🇵🇹",
+        "number": "+351 21 325 2700"
+      },
+      "Scotland": {
+        "name": "Scozia 🏴",
         "number": "+44 141 616 6000"
       },
-      "Spagna": {
+      "Slovenia": {
+        "name": "Slovenia 🇸🇮",
+        "number": "+386 599 96452"
+      },
+      "Spain": {
         "name": "Spagna 🇪🇸",
         "number": "+34 914 959 800"
+      },
+      "Sweden": {
+        "name": "Svezia 🇸🇪",
+        "number": "+46-8-735 09 00"
       }
     }
+  },
+  "latest": {
+    "title": "Ultime notizie"
   },
   "downloads": {
     "title": "Ricoprite i Muri",

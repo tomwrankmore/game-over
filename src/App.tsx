@@ -4,6 +4,7 @@ import Call from './pages/Call';
 import Downloads from './pages/Downloads';
 import FloodFeds from './pages/FloodFeds';
 import Home from './pages/Home';
+import Latest from './pages/Latest';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
@@ -38,6 +39,7 @@ function LocaleWrapper() {
         <Route path="call" element={<Call />} />
         <Route path="downloads" element={<Downloads />} />
         <Route path="floodfeds" element={<FloodFeds />} />
+        <Route path="latest" element={<Latest />} />
       </Routes>
     </>
   );

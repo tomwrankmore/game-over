@@ -5,6 +5,7 @@
     "demos": "Manifs et Rassemblements",
     "call": "Appelez votre Fédération",
     "cover": "Recouvrez les murs",
+    "latest": "Dernières Nouvelles",
     "press": "Contacts presse"
   },
   "heroTitle": "Passez à l'action",
@@ -40,43 +41,74 @@
     "title": "Appelez votre Fédération",
     "text": "Dites au président de votre Fédération de boycotter l'équipe nationale israélienne, les clubs israéliens et d'interdir les joueurs israéliens.",
     "countryContacts": {
-      "Belgique": {
+      "Belgium": {
         "name": "Belgique 🇧🇪",
         "number": "+3224771211"
       },
-      "Angleterre": {
+      "Denmark": {
+        "name": "Danemark 🇩🇰",
+        "number": "+45 4326 2222"
+      },
+      "England": {
         "name": "Angleterre 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "number": "+44 800 169 1863"
+      },
+      "Estonia": {
+        "name": "Estonie 🇪🇪",
+        "number": "+372 627 9960"
+      },
+      "Finland": {
+        "name": "Finlande 🇫🇮",
+        "number": "+358 9 742 151"
       },
       "France": {
         "name": "France 🇫🇷",
         "number": "+33144317300"
       },
-      "Grèce": {
+      "Greece": {
         "name": "Grèce 🇬🇷",
         "number": "+302109306000"
       },
-      "Irlande": {
-        "name": "Irlande  🇮🇪",
+      "Ireland": {
+        "name": "Irlande 🇮🇪",
         "number": "+353 1 8999 500"
       },
-      "Italie": {
-        "name": "Italie  🇮🇹",
+      "Italy": {
+        "name": "Italie 🇮🇹",
         "number": "+39 06 84912133"
       },
-      "Norvège": {
-        "name": "Norvège  🇳🇴",
+      "The Netherlands": {
+        "name": "Pays-Bas 🇳🇱",
+        "number": "+31 343 491 424"
+      },
+      "Norway": {
+        "name": "Norvège 🇳🇴",
         "number": "+47 21 02 93 00"
       },
-      "Écosse": {
-        "name": "Écosse  🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "Portugal": {
+        "name": "Portugal 🇵🇹",
+        "number": "+351 21 325 2700"
+      },
+      "Scotland": {
+        "name": "Écosse 🏴",
         "number": "+44 141 616 6000"
       },
-      "Espagne": {
-        "name": "Espagne  🇪🇸",
+      "Slovenia": {
+        "name": "Slovénie 🇸🇮",
+        "number": "+386 599 96452"
+      },
+      "Spain": {
+        "name": "Espagne 🇪🇸",
         "number": "+34 914 959 800"
+      },
+      "Sweden": {
+        "name": "Suède 🇸🇪",
+        "number": "+46-8-735 09 00"
       }
     }
+  },
+  "latest": {
+    "title": "Dernières nouvelles"
   },
   "downloads": {
     "title": "Recouvrez les Murs",

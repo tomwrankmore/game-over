@@ -8,7 +8,7 @@ import t4p from '/partner-logos/t4p-full.png';
 
 const LogoCloud = () => {
   return (
-    <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16 mt-8 py-12">
+    <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16 mt-8 py-12 mb-8 md:mb-16">
       <a href="https://www.adc.org/" target="_blank" rel="noopener noreferrer">
         <img
           src={ADC}
