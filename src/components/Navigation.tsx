@@ -6,6 +6,7 @@ import { cn } from '@/lib/utils';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaInstagram, FaTiktok } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { NavLink, useParams } from 'react-router-dom';
 
 const Navigation = () => {
@@ -140,6 +141,15 @@ const Navigation = () => {
                     className="hover:text-boycott-light/80 hover:scale-120 transition-all"
                   >
                     <FaTiktok size={28} />
+                  </a>
+                  <a
+                    href="https://x.com/gameover_israel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="X / Twitter"
+                    className="hover:text-boycott-light/80 hover:scale-120 transition-all"
+                  >
+                    <FaXTwitter size={28} />
                   </a>
                 </div>
               </div>
