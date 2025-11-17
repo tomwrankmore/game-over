@@ -158,12 +158,14 @@ const Navigation = () => {
         </div>
       </div>
       <div className="w-full h-8 bg-black flex items-center overflow-hidden relative">
-        <NavLink
-          to={`/${lng}/latest`}
+        <a
+          href="/DearPresidentČeferin.pdf"
+          target="_blank"
+          rel="noreferrer"
           className="w-full whitespace-nowrap no-underline text-white font-medium text-sm text-center hover:underline"
         >
-          <span>Check out the latest news!</span>
-        </NavLink>
+          <span>Read the Athletes 4 Peace Letter!</span>
+        </a>
       </div>
     </header>
   );
