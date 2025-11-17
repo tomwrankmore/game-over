@@ -253,6 +253,22 @@ const Latest = () => {
           <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-24 text-left justify-start">
             <div>
               <a
+                href="/DearPresidentČeferin.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:underline block text-center w-fit mb-4"
+              >
+                <Button
+                  size="lg"
+                  variant="default"
+                  className="text-boycott-light uppercase font-bold bg-boycott-black hover:underline cursor-pointer rounded-full py-6"
+                >
+                  <FaFilePdf />
+                  Read the Athletes 4 Peace Letter
+                </Button>
+              </a>
+
+              <a
                 href="/GOIPressRelease.pdf"
                 target="_blank"
                 rel="noreferrer"
@@ -267,6 +283,7 @@ const Latest = () => {
                   Read Latest Press release
                 </Button>
               </a>
+
               <h2 className="relative z-20 text-left text-xl mb-4">
                 Top News Coverage
               </h2>
